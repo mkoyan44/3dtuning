@@ -1,75 +1,47 @@
-import sys, argparse
-
-from datetime import datetime
+import sys, argparse, json,os
 import time
 from selenium import webdriver
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
-from selenium.webdriver.support.ui import WebDriverWait
 
+def getBrowserStackDefination():
+    with open(os.path.abspath(os.path.join(os.path.dirname(__file__),"defination.json")), "r") as f:
+        obj = json.loads(f.read())
+    return obj
 
-def load_page(page_url, remote_server, max_load_seconds,is_clean):
+def load_page(page_url, remote_server):
+
     is_ok = True
-    driver = webdriver.Remote(command_executor = remote_server,
-                              desired_capabilities=DesiredCapabilities.CHROME)
 
-    def get_clear_browsing_button(driver):
-        """Find the "CLEAR BROWSING BUTTON" on the Chrome settings page."""
-        return driver.find_element_by_css_selector('* /deep/ #clearBrowsingDataConfirm')
+    if is_browserstack is True:
+        local_caps = {}
+        local_caps["browserstack.debug"] = False
+        local_caps["browserstack.networkLogs"] = False
+        local_caps["browserstack.local"] = False
+        caps = local_caps.copy()
+        caps.update(getBrowserStackDefination()[int(test_id)])
 
-    def clear_cache(driver, timeout=60):
-        """Clear the cookies and cache for the ChromeDriver instance."""
-        # navigate to the settings page
-        driver.get('chrome://settings/clearBrowserData')
+    else:
+        caps = DesiredCapabilities.CHROME
 
-        # wait for the button to appear
-        wait = WebDriverWait(driver, timeout)
-        wait.until(get_clear_browsing_button)
-
-        # click the button to clear the cache
-        get_clear_browsing_button(driver).click()
-
-        # wait for the button to be gone before returning
-        wait.until_not(get_clear_browsing_button)
-
+    driver = webdriver.Remote(
+                                  command_executor = remote_server,
+                                  desired_capabilities = caps
+                            )
+    driver.set_page_load_timeout(30)
+    driver.implicitly_wait(30)
     try:
-
-        if is_clean is True:
-            # Cleanup cache
-            driver.delete_all_cookies()
-            clear_cache(driver)
-
-        print("Open page: %s" % (page_url))
-        page_url = "{}//{}:{}@{}".format(page_url.split('//')[0], 'mkoyan44', 'Class123456', page_url.split('//')[1])
         start_clock = int(time.time())
-
-
-        # load page
         driver.get(page_url)
-
         end_clock = int(time.time())
         elapsed_seconds = end_clock - start_clock
-
-        if elapsed_seconds > max_load_seconds:
-            print("ERROR: page load is too slow. It took %s seconds, more than %d seconds." \
-                  % ("{:.2f}".format(elapsed_seconds), max_load_seconds))
-            is_ok = False
-
-        else:
-            print("Page load took: %s seconds." % ("{:.2f}".format(elapsed_seconds)))
-
-        save_screenshot_filepath = "%s/%s-%s.png" % \
-                                   ("/tmp", datetime.now().strftime('%Y-%m-%d_%H%M%S'),
-                                    page_url.rstrip("/").split("/")[-1])
-
-        driver.get_screenshot_as_file(save_screenshot_filepath)
+        print(
+            "{} {} {} {} {}".format(elapsed_seconds, caps['os'], caps['os_version'], caps['browser'], caps['version'])
+        )
+        driver.close()
+        driver.quit()
 
     except Exception as e:
         print("ERROR: get exception: %s" % (e))
-        is_ok = False
-    finally:
-        driver.close()
-        # quit session
-        driver.quit()
 
     return is_ok
 
@@ -101,27 +73,28 @@ if __name__ == '__main__':
                         )
 
     parser.add_argument(
-                            '--max_load_seconds',
+                            '--test_id',
                             required=False,
-                            default=100,
-                            help="If page load takes too long, quit the test",
+                            default=0,
+                            help="id of json test ",
                             type=int
-                        )
+    )
 
-    parser.add_argument('--is_clean', required=False,
+    parser.add_argument('--is_browserstack', required=False,
                         default=False,
-                        help="Exec with clean caches and cookes",
+                        help="Exec with browserstack",
                         type=str2bool
                         )
 
     l = parser.parse_args()
+
     page_url = l.page_url
     remote_server = l.remote_server
-    max_load_seconds = l.max_load_seconds
-    is_clean = l.is_clean
+    test_id = l.test_id
+    is_browserstack = l.is_browserstack
 
     # Run page loading test
-    is_ok = load_page(page_url, remote_server, max_load_seconds,is_clean)
+    is_ok = load_page(page_url, remote_server)
 
     if is_ok is False:
         sys.exit(1)

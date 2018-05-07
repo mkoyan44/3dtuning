@@ -12,7 +12,7 @@ for counter in range(num_of_tests):
 
     cmd = cmd_template.format(
                               page_url="'http://www.3dtuning.com/en-US/tuning/range.rover/evoque.3.door/crossover.2012'",
-                              remote_server="'http://surensargsyab1:ZDfpTUmpi5nEYS1rNC1n@hub.browserstack.com:80/wd/hub'",
+                              remote_server="'http://arturmkoyan1:roisHijaC9XBRGsRq6ds@hub.browserstack.com:80/wd/hub'",
                               is_browserstack=True,
                               test_id=counter
                               )

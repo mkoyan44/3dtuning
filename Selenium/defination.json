@@ -1,0 +1,30 @@
+[
+  {
+    "browserstack.selenium_version": "3.9.1",
+    "build": "Windows 10 Chrome",
+    "browserName": "chrome",
+    "platform": "Windows",
+    "browser": "chrome",
+    "version": "66.0",
+    "os": "Windows",
+    "os_version": "10"
+  },
+  {
+    "build": "High Sierra Chrome",
+    "browserName": "chrome",
+    "platform": "MAC",
+    "browser": "chrome",
+    "version": "66.0",
+    "os": "OS X",
+    "os_version": "High Sierra"
+  },
+  {
+    "build": "High Sierra Firefox",
+    "browserName": "firefox",
+    "platform": "MAC",
+    "browser": "firefox",
+    "version": "58.0",
+    "os": "OS X",
+    "os_version": "High Sierra"
+  }
+]

@@ -1,5 +1,5 @@
-./*-releases
-./*-releases
+./osx/*-releases
+./osx/*-releases
 ./__pycache__
-./*.zip
-./*.jar
+./osx/*.zip
+./osx/*.jar

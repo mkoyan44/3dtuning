@@ -1,0 +1,494 @@
+[
+  //windows 10 chrome
+  {
+    "build": "Windows 10 Chrome",
+    "browserName": "Chrome",
+    "platform": "Windows",
+    "browser": "Chrome",
+    "browser_version": "66.0",
+    "os": "Windows",
+    "os_version": "10"
+  },
+  {
+    "build": "Windows 10 Chrome",
+    "browserName": "Chrome",
+    "platform": "Windows",
+    "browser": "Chrome",
+    "browser_version": "65.0",
+    "os": "Windows",
+    "os_version": "10"
+  },
+   {
+    "build": "Windows 10 Chrome",
+    "browserName": "Chrome",
+    "platform": "Windows",
+    "browser": "Chrome",
+    "browser_version": "64.0",
+    "os": "Windows",
+    "os_version": "10"
+  },
+    {
+    "build": "Windows 10 Chrome",
+    "browserName": "Chrome",
+    "platform": "Windows",
+    "browser": "Chrome",
+    "browser_version": "63.0",
+    "os": "Windows",
+    "os_version": "10"
+  },
+    {
+    "build": "Windows 10 Chrome",
+    "browserName": "Chrome",
+    "platform": "Windows",
+    "browser": "Chrome",
+    "browser_version": "62.0",
+    "os": "Windows",
+    "os_version": "10"
+  },
+  {
+    "build": "Windows 10 Chrome",
+    "browserName": "Chrome",
+    "platform": "Windows",
+    "browser": "Chrome",
+    "browser_version": "61.0",
+    "os": "Windows",
+    "os_version": "10"
+  },
+  {
+    "build": "Windows 10 Chrome",
+    "browserName": "Chrome",
+    "platform": "Windows",
+    "browser": "Chrome",
+    "browser_version": "60.0",
+    "os": "Windows",
+    "os_version": "10"
+  },
+
+  //windows 10, firefox
+  {
+    "build": "Windows 10 Firefox",
+    "browserName": "Firefox",
+    "browser" : "Firefox",
+    "browser_version" : "60.0 beta",
+    "platform": "Windows",
+    "os": "Windows",
+    "os_version": "10"
+  },
+
+  {
+    "build": "Windows 10 Firefox",
+    "browserName": "Firefox",
+    "browser" : "Firefox",
+    "browser_version" : "59.0",
+    "platform": "Windows",
+    "os": "Windows",
+    "os_version": "10"
+  },
+  {
+    "build": "Windows 10 Firefox",
+    "browserName": "Firefox",
+    "browser" : "Firefox",
+    "browser_version" : "58.0",
+    "platform": "Windows",
+    "os": "Windows",
+    "os_version": "10"
+  },
+  {
+    "build": "Windows 10 Firefox",
+    "browserName": "Firefox",
+    "browser" : "Firefox",
+    "browser_version" : "57.0",
+    "platform": "Windows",
+    "os": "Windows",
+    "os_version": "10"
+  },
+
+
+  // ie,opera, windows 10
+
+  {
+    "build": "Windows 10 IE",
+    "browserName": "IE",
+    "browser" : "IE",
+    "browser_version" : "11.0",
+    "platform": "Windows",
+    "os": "Windows",
+    "os_version": "10"
+  },
+
+  {
+    "build": "Windows 10 Opera",
+    "browserName": "Opera",
+    "browser" : "Opera",
+    "browser_version" : "52",
+    "platform": "Windows",
+    "os": "Windows",
+    "os_version": "10"
+  },
+
+
+  // Windows 8.1 Chrome
+    {
+    "build": "Windows 8.1 Chrome",
+    "browserName": "Chrome",
+    "platform": "Windows",
+    "browser": "Chrome",
+    "browser_version": "66.0",
+    "os": "Windows",
+    "os_version": "8.1"
+  },
+  {
+    "build": "Windows 8.1 Chrome",
+    "browserName": "Chrome",
+    "platform": "Windows",
+    "browser": "Chrome",
+    "browser_version": "65.0",
+    "os": "Windows",
+    "os_version": "8.1"
+  },
+   {
+    "build": "Windows 8.1 Chrome",
+    "browserName": "Chrome",
+    "platform": "Windows",
+    "browser": "Chrome",
+    "browser_version": "64.0",
+    "os": "Windows",
+    "os_version": "8.1"
+  },
+    {
+    "build": "Windows 8.1 Chrome",
+    "browserName": "Chrome",
+    "platform": "Windows",
+    "browser": "Chrome",
+    "browser_version": "63.0",
+    "os": "Windows",
+    "os_version": "8.1"
+  },
+    {
+    "build": "Windows 8.1 Chrome",
+    "browserName": "Chrome",
+    "platform": "Windows",
+    "browser": "Chrome",
+    "browser_version": "62.0",
+    "os": "Windows",
+    "os_version": "8.1"
+  },
+  {
+    "build": "Windows 10 Chrome",
+    "browserName": "Chrome",
+    "platform": "Windows",
+    "browser": "Chrome",
+    "browser_version": "61.0",
+    "os": "Windows",
+    "os_version": "8.1"
+  },
+  {
+    "build": "Windows 8.1 Chrome",
+    "browserName": "Chrome",
+    "platform": "Windows",
+    "browser": "Chrome",
+    "browser_version": "60.0",
+    "os": "Windows",
+    "os_version": "8.1"
+  },
+
+
+
+  // windows 8.1 firefox
+
+  {
+    "build": "Windows 8.1 Firefox",
+    "browserName": "Firefox",
+    "browser" : "Firefox",
+    "browser_version" : "60.0 beta",
+    "platform": "Windows",
+    "os": "Windows",
+    "os_version": "8.1"
+  },
+
+  {
+    "build": "Windows 8.1 Firefox",
+    "browserName": "Firefox",
+    "browser" : "Firefox",
+    "browser_version" : "59.0",
+    "platform": "Windows",
+    "os": "Windows",
+    "os_version": "8.1"
+  },
+  {
+    "build": "Windows 10 Firefox",
+    "browserName": "Firefox",
+    "browser" : "Firefox",
+    "browser_version" : "58.0",
+    "platform": "Windows",
+    "os": "Windows",
+    "os_version": "8.1"
+  },
+  {
+    "build": "Windows 10 Firefox",
+    "browserName": "Firefox",
+    "browser" : "Firefox",
+    "browser_version" : "57.0",
+    "platform": "Windows",
+    "os": "Windows",
+    "os_version": "8.1"
+  },
+
+
+
+  // ie,opera windows 8.1
+
+  {
+    "build": "Windows 8.1 IE",
+    "browserName": "IE",
+    "browser" : "IE",
+    "browser_version" : "11.0",
+    "platform": "Windows",
+    "os": "Windows",
+    "os_version": "8.1"
+  },
+
+  {
+    "build": "Windows 8.1 Opera",
+    "browserName": "Opera",
+    "browser" : "Opera",
+    "browser_version" : "52",
+    "platform": "Windows",
+    "os": "Windows",
+    "os_version": "8.1"
+  },
+
+
+  // windows 7
+    {
+    "build": "Windows 7 Chrome",
+    "browserName": "Chrome",
+    "platform": "Windows",
+    "browser": "Chrome",
+    "browser_version": "66.0",
+    "os": "Windows",
+    "os_version": "7"
+  },
+  {
+    "build": "Windows 7 Chrome",
+    "browserName": "Chrome",
+    "platform": "Windows",
+    "browser": "Chrome",
+    "browser_version": "65.0",
+    "os": "Windows",
+    "os_version": "7"
+  },
+   {
+    "build": "Windows 7 Chrome",
+    "browserName": "Chrome",
+    "platform": "Windows",
+    "browser": "Chrome",
+    "browser_version": "64.0",
+    "os": "Windows",
+    "os_version": "7"
+  },
+    {
+    "build": "Windows 7 Chrome",
+    "browserName": "Chrome",
+    "platform": "Windows",
+    "browser": "Chrome",
+    "browser_version": "63.0",
+    "os": "Windows",
+    "os_version": "7"
+  },
+    {
+    "build": "Windows 7 Chrome",
+    "browserName": "Chrome",
+    "platform": "Windows",
+    "browser": "Chrome",
+    "browser_version": "62.0",
+    "os": "Windows",
+    "os_version": "7"
+  },
+  {
+    "build": "Windows 7 Chrome",
+    "browserName": "Chrome",
+    "platform": "Windows",
+    "browser": "Chrome",
+    "browser_version": "61.0",
+    "os": "Windows",
+    "os_version": "7"
+  },
+  {
+    "build": "Windows 7 Chrome",
+    "browserName": "Chrome",
+    "platform": "Windows",
+    "browser": "Chrome",
+    "browser_version": "60.0",
+    "os": "Windows",
+    "os_version": "7"
+  },
+
+  // windows 7 firefox
+
+   //windows 10, firefox
+  {
+    "build": "Windows 7 Firefox",
+    "browserName": "Firefox",
+    "browser" : "Firefox",
+    "browser_version" : "60.0 beta",
+    "platform": "Windows",
+    "os": "Windows",
+    "os_version": "7"
+  },
+
+  {
+    "build": "Windows 10 Firefox",
+    "browserName": "Firefox",
+    "browser" : "Firefox",
+    "browser_version" : "59.0",
+    "platform": "Windows",
+    "os": "Windows",
+    "os_version": "7"
+  },
+  {
+    "build": "Windows 10 Firefox",
+    "browserName": "Firefox",
+    "browser" : "Firefox",
+    "browser_version" : "58.0",
+    "platform": "Windows",
+    "os": "Windows",
+    "os_version": "7"
+  },
+  {
+    "build": "Windows 10 Firefox",
+    "browserName": "Firefox",
+    "browser" : "Firefox",
+    "browser_version" : "57.0",
+    "platform": "Windows",
+    "os": "Windows",
+    "os_version": "7"
+  },
+
+
+  // ie,opera, windows 10
+
+  {
+    "build": "Windows 7 IE",
+    "browserName": "IE",
+    "browser" : "IE",
+    "browser_version" : "11.0",
+    "platform": "Windows",
+    "os": "Windows",
+    "os_version": "7"
+  },
+  {
+    "build": "Windows 7 IE",
+    "browserName": "IE",
+    "browser" : "IE",
+    "browser_version" : "10.0",
+    "platform": "Windows",
+    "os": "Windows",
+    "os_version": "7"
+  },
+    {
+    "build": "Windows 7 IE",
+    "browserName": "IE",
+    "browser" : "IE",
+    "browser_version" : "9.0",
+    "platform": "Windows",
+    "os": "Windows",
+    "os_version": "7"
+  },
+    {
+    "build": "Windows 7 IE",
+    "browserName": "IE",
+    "browser" : "IE",
+    "browser_version" : "8.0",
+    "platform": "Windows",
+    "os": "Windows",
+    "os_version": "7"
+  },
+
+  {
+    "build": "Windows 7 Opera",
+    "browserName": "Opera",
+    "browser" : "Opera",
+    "browser_version" : "52",
+    "platform": "Windows",
+    "os": "Windows",
+    "os_version": "7"
+  },
+
+
+
+
+  // windows xp,
+
+   {
+    "build": "Windows XP Chrome",
+    "browserName": "Chrome",
+    "platform": "Windows",
+    "browser": "Chrome",
+    "browser_version": "49.0",
+    "os": "Windows",
+    "os_version": "XP"
+  },
+
+   {
+    "build": "Windows XP Chrome",
+    "browserName": "Chrome",
+    "platform": "Windows",
+    "browser": "Chrome",
+    "browser_version": "48.0",
+    "os": "Windows",
+    "os_version": "XP"
+  },
+
+  //windows 10, firefox
+  {
+    "build": "Windows XP Firefox",
+    "browserName": "Firefox",
+    "browser" : "Firefox",
+    "browser_version" : "47.0",
+    "platform": "Windows",
+    "os": "Windows",
+    "os_version": "XP"
+  },
+  {
+    "build": "Windows XP Firefox",
+    "browserName": "Firefox",
+    "browser" : "Firefox",
+    "browser_version" : "47.0",
+    "platform": "Windows",
+    "os": "Windows",
+    "os_version": "XP"
+  },
+
+  // ie,opera, windows 10
+
+  {
+    "build": "Windows XP IE",
+    "browserName": "IE",
+    "browser" : "IE",
+    "browser_version" : "7.0",
+    "platform": "Windows",
+    "os": "Windows",
+    "os_version": "XP"
+  },
+  {
+    "build": "Windows XP IE",
+    "browserName": "IE",
+    "browser" : "IE",
+    "browser_version" : "6.0",
+    "platform": "Windows",
+    "os": "Windows",
+    "os_version": "XP"
+  },
+
+  {
+    "build": "Windows 10 Opera",
+    "browserName": "Opera",
+    "browser" : "Opera",
+    "browser_version" : "52",
+    "platform": "Windows",
+    "os": "Windows",
+    "os_version": "10"
+  }
+
+]

@@ -1,29 +1,29 @@
-import json,subprocess,os,sys
+import json, subprocess, os, sys
+from jsmin import jsmin
 
-
-with open(os.path.abspath(os.path.join(os.path.dirname(__file__),"defination.json")), "r") as f:
-    obj = json.loads(f.read())
+with open(os.path.abspath(os.path.join(os.path.dirname(__file__), "cases.json")), "r") as f:
+    obj = json.loads(jsmin(f.read()))
 
 num_of_tests = len(obj)
-
-for rep in range(1,11):
-
+for rep in range(1, 6):
     for counter in range(num_of_tests):
+
         cmd_template = (
-                'python osx.py --page_url {page_url} --test_id={test_id} --nb_repeat={nb_repeat}'
-            )
+            'python browserstack.py --page_url {page_url} --remote_hub {remote_hub} --test_id={test_id} --nb_repeat={nb_repeat}'
+        )
 
         cmd = cmd_template.format(
-                                  page_url="'http://www.3dtuning.com/en-US/tuning/range.rover/evoque.3.door/crossover.2012'",
-                                  test_id=counter,
-                                  nb_repeat=rep
-                                  )
+            page_url="'http://www.3dtuning.com/en-US/tuning/range.rover/evoque.3.door/crossover.2012'",
+            remote_hub="'http://surensargsyab1:ZDfpTUmpi5nEYS1rNC1n@hub.browserstack.com:80/wd/hub'",
+            test_id=counter,
+            nb_repeat=rep
+        )
         p = subprocess.Popen(cmd,
-                               stdout=subprocess.PIPE,
-                               shell=True
-                               )
+                             stdout=subprocess.PIPE,
+                             shell=True
+                             )
         p.wait()
-        with open('report.log','a') as f:
+        with open('report.log', 'a') as f:
             for line in p.stdout:
                 sys.stdout.write(line)
                 f.write(line)

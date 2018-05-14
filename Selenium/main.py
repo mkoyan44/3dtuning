@@ -5,7 +5,7 @@ with open(os.path.abspath(os.path.join(os.path.dirname(__file__), "cases.json"))
     obj = json.loads(jsmin(f.read()))
 
 num_of_tests = len(obj)
-for rep in range(1, 6):
+for rep in range(6, 11):
     for counter in range(num_of_tests):
 
         cmd_template = (

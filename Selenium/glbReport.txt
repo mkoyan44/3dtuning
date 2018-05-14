@@ -1,0 +1,2626 @@
+Traceback (most recent call last):
+  File "main.py", line 5, in <module>
+    obj = json.loads(jsmin(f.read()))
+  File "/usr/local/Cellar/python@2/2.7.14_3/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/__init__.py", line 339, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/Cellar/python@2/2.7.14_3/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/decoder.py", line 364, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/local/Cellar/python@2/2.7.14_3/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/decoder.py", line 380, in raw_decode
+    obj, end = self.scan_once(s, idx)
+ValueError: Expecting , delimiter: line 2 column 1 (char 7331)
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 29, in load_page
+    desired_capabilities=caps
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 156, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 245, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Browser not permitted: {"platform"=>"Windows", "os_version"=>"10", "browserstack.networkLogs"=>false, "browser_version"=>"52", "browserName"=>"Opera", "build"=>"Windows 10 Opera", "browserstack.local"=>false, "os"=>"Windows", "browser"=>"Opera", "acceptSslCert"=>false, "language"=>"selenium/3.12.0 (python mac)"}
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 29, in load_page
+    desired_capabilities=caps
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 156, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 245, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Browser/Browser_Version not supported: {"platform"=>"Windows", "os_version"=>"8.1", "browserstack.networkLogs"=>false, "browser_version"=>"52", "browserName"=>"Opera", "build"=>"Windows 8.1 Opera", "browserstack.local"=>false, "os"=>"Windows", "browser"=>"Opera", "acceptSslCert"=>false, "language"=>"selenium/3.12.0 (python mac)"}
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 35, in load_page
+    wait.until(EC.visibility_of_element_located((By.XPATH, "//div[contains(@class, 'callenge-body')]")))
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 35, in load_page
+    wait.until(EC.visibility_of_element_located((By.XPATH, "//div[contains(@class, 'callenge-body')]")))
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 29, in load_page
+    desired_capabilities=caps
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 156, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 245, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Browser/Browser_Version not supported: {"platform"=>"Windows", "os_version"=>"7", "browserstack.networkLogs"=>false, "browser_version"=>"52", "browserName"=>"Opera", "build"=>"Windows 7 Opera", "browserstack.local"=>false, "os"=>"Windows", "browser"=>"Opera", "acceptSslCert"=>false, "language"=>"selenium/3.12.0 (python mac)"}
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 29, in load_page
+    desired_capabilities=caps
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 156, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 245, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Browser not permitted: {"platform"=>"Windows", "os_version"=>"10", "browserstack.networkLogs"=>false, "browser_version"=>"52", "browserName"=>"Opera", "build"=>"Windows 10 Opera", "browserstack.local"=>false, "os"=>"Windows", "browser"=>"Opera", "acceptSslCert"=>false, "language"=>"selenium/3.12.0 (python mac)"}
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 29, in load_page
+    desired_capabilities=caps
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 156, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 245, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Browser not permitted: {"platform"=>"Windows", "os_version"=>"10", "browserstack.networkLogs"=>false, "browser_version"=>"52", "browserName"=>"Opera", "build"=>"Windows 10 Opera", "browserstack.local"=>false, "os"=>"Windows", "browser"=>"Opera", "acceptSslCert"=>false, "language"=>"selenium/3.12.0 (python mac)"}
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 29, in load_page
+    desired_capabilities=caps
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 156, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 245, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Browser/Browser_Version not supported: {"platform"=>"Windows", "os_version"=>"8.1", "browserstack.networkLogs"=>false, "browser_version"=>"52", "browserName"=>"Opera", "build"=>"Windows 8.1 Opera", "browserstack.local"=>false, "os"=>"Windows", "browser"=>"Opera", "acceptSslCert"=>false, "language"=>"selenium/3.12.0 (python mac)"}
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 35, in load_page
+    wait.until(EC.visibility_of_element_located((By.XPATH, "//div[contains(@class, 'callenge-body')]")))
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 35, in load_page
+    wait.until(EC.visibility_of_element_located((By.XPATH, "//div[contains(@class, 'callenge-body')]")))
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 29, in load_page
+    desired_capabilities=caps
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 156, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 245, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Browser/Browser_Version not supported: {"platform"=>"Windows", "os_version"=>"7", "browserstack.networkLogs"=>false, "browser_version"=>"52", "browserName"=>"Opera", "build"=>"Windows 7 Opera", "browserstack.local"=>false, "os"=>"Windows", "browser"=>"Opera", "acceptSslCert"=>false, "language"=>"selenium/3.12.0 (python mac)"}
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 35, in load_page
+    wait.until(EC.visibility_of_element_located((By.XPATH, "//div[contains(@class, 'callenge-body')]")))
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 71, in until
+    value = method(self._driver)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/support/expected_conditions.py", line 127, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/support/expected_conditions.py", line 401, in _find_element
+    raise e
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: Modal dialog present: Revocation information for the security certificate for this site is not available. Do you want to proceed?
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: '185-129-71-136', ip: '185.129.71.136', os.name: 'windows', os.arch: 'x86', os.version: '5.2', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{enablePersistentHover=false, ignoreZoomSetting=false, handlesAlerts=true, version=6, platform=WINDOWS, nativeEvents=false, elementScrollBehavior=0, allowAsynchronousJavaScript=true, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=about:blank, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 01443502-1035-4491-8778-0eb809a1d658
+*** Element info: {Using=xpath, value=//div[contains(@class, 'callenge-body')]}
+Screenshot: available via screen
+Stacktrace:
+    at sun.reflect.NativeConstructorAccessorImpl.newInstance0 (None:-2)
+    at sun.reflect.NativeConstructorAccessorImpl.newInstance (None:-1)
+    at sun.reflect.DelegatingConstructorAccessorImpl.newInstance (None:-1)
+    at java.lang.reflect.Constructor.newInstance (None:-1)
+    at org.openqa.selenium.remote.ErrorHandler.createThrowable (ErrorHandler.java:206)
+    at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException (ErrorHandler.java:187)
+    at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed (ErrorHandler.java:154)
+    at org.openqa.selenium.remote.RemoteWebDriver.execute (RemoteWebDriver.java:678)
+    at org.openqa.selenium.remote.RemoteWebDriver.findElement (RemoteWebDriver.java:363)
+    at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath (RemoteWebDriver.java:500)
+    at org.openqa.selenium.By$ByXPath.findElement (By.java:361)
+    at org.openqa.selenium.remote.RemoteWebDriver.findElement (RemoteWebDriver.java:355)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (None:-2)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (None:-1)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (None:-1)
+    at java.lang.reflect.Method.invoke (None:-1)
+    at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke (EventFiringWebDriver.java:103)
+    at com.sun.proxy.$Proxy1.findElement (None:-1)
+    at org.openqa.selenium.support.events.EventFiringWebDriver.findElement (EventFiringWebDriver.java:188)
+    at org.openqa.selenium.remote.server.handler.FindElement.call (FindElement.java:48)
+    at org.openqa.selenium.remote.server.handler.FindElement.call (FindElement.java:1)
+    at java.util.concurrent.FutureTask.run (None:-1)
+    at org.openqa.selenium.remote.server.DefaultSession$1.run (DefaultSession.java:176)
+    at java.util.concurrent.ThreadPoolExecutor.runWorker (None:-1)
+    at java.util.concurrent.ThreadPoolExecutor$Worker.run (None:-1)
+    at java.lang.Thread.run (None:-1)
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 29, in load_page
+    desired_capabilities=caps
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 156, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 245, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Browser not permitted: {"platform"=>"Windows", "os_version"=>"10", "browserstack.networkLogs"=>false, "browser_version"=>"52", "browserName"=>"Opera", "build"=>"Windows 10 Opera", "browserstack.local"=>false, "os"=>"Windows", "browser"=>"Opera", "acceptSslCert"=>false, "language"=>"selenium/3.12.0 (python mac)"}
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 29, in load_page
+    desired_capabilities=caps
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 156, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 245, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Browser not permitted: {"platform"=>"Windows", "os_version"=>"10", "browserstack.networkLogs"=>false, "browser_version"=>"52", "browserName"=>"Opera", "build"=>"Windows 10 Opera", "browserstack.local"=>false, "os"=>"Windows", "browser"=>"Opera", "acceptSslCert"=>false, "language"=>"selenium/3.12.0 (python mac)"}
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 29, in load_page
+    desired_capabilities=caps
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 156, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 245, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Browser/Browser_Version not supported: {"platform"=>"Windows", "os_version"=>"8.1", "browserstack.networkLogs"=>false, "browser_version"=>"52", "browserName"=>"Opera", "build"=>"Windows 8.1 Opera", "browserstack.local"=>false, "os"=>"Windows", "browser"=>"Opera", "acceptSslCert"=>false, "language"=>"selenium/3.12.0 (python mac)"}
+
+nb_Repeat:1,duration:24,os:Windows,os_version:10,browser:Chrome,browser_version:66.0
+
+nb_Repeat:1,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:65.0
+
+nb_Repeat:1,duration:22,os:Windows,os_version:10,browser:Chrome,browser_version:64.0
+
+nb_Repeat:1,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:63.0
+
+nb_Repeat:1,duration:24,os:Windows,os_version:10,browser:Chrome,browser_version:62.0
+
+nb_Repeat:1,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:61.0
+
+nb_Repeat:1,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:60.0
+
+nb_Repeat:1,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:60.0 beta
+
+nb_Repeat:1,duration:22,os:Windows,os_version:10,browser:Firefox,browser_version:59.0
+
+nb_Repeat:1,duration:25,os:Windows,os_version:10,browser:Firefox,browser_version:58.0
+
+nb_Repeat:1,duration:24,os:Windows,os_version:10,browser:Firefox,browser_version:57.0
+
+nb_Repeat:1,duration:22,os:Windows,os_version:10,browser:IE,browser_version:11.0
+
+
+nb_Repeat:1,duration:23,os:Windows,os_version:8.1,browser:Chrome,browser_version:66.0
+
+nb_Repeat:1,duration:23,os:Windows,os_version:8.1,browser:Chrome,browser_version:65.0
+
+nb_Repeat:1,duration:25,os:Windows,os_version:8.1,browser:Chrome,browser_version:64.0
+
+nb_Repeat:1,duration:24,os:Windows,os_version:8.1,browser:Chrome,browser_version:63.0
+
+nb_Repeat:1,duration:23,os:Windows,os_version:8.1,browser:Chrome,browser_version:62.0
+
+nb_Repeat:1,duration:26,os:Windows,os_version:8.1,browser:Chrome,browser_version:61.0
+
+nb_Repeat:1,duration:22,os:Windows,os_version:8.1,browser:Chrome,browser_version:60.0
+
+nb_Repeat:1,duration:23,os:Windows,os_version:8.1,browser:Firefox,browser_version:60.0 beta
+
+nb_Repeat:1,duration:22,os:Windows,os_version:8.1,browser:Firefox,browser_version:59.0
+
+nb_Repeat:1,duration:23,os:Windows,os_version:8.1,browser:Firefox,browser_version:58.0
+
+nb_Repeat:1,duration:22,os:Windows,os_version:8.1,browser:Firefox,browser_version:57.0
+
+nb_Repeat:1,duration:23,os:Windows,os_version:8.1,browser:IE,browser_version:11.0
+
+
+nb_Repeat:1,duration:23,os:Windows,os_version:7,browser:Chrome,browser_version:66.0
+
+nb_Repeat:1,duration:23,os:Windows,os_version:7,browser:Chrome,browser_version:65.0
+
+nb_Repeat:1,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:64.0
+
+nb_Repeat:1,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:63.0
+
+nb_Repeat:1,duration:24,os:Windows,os_version:7,browser:Chrome,browser_version:62.0
+
+nb_Repeat:1,duration:23,os:Windows,os_version:7,browser:Chrome,browser_version:61.0
+
+nb_Repeat:1,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:60.0
+
+nb_Repeat:1,duration:23,os:Windows,os_version:7,browser:Firefox,browser_version:60.0 beta
+
+nb_Repeat:1,duration:23,os:Windows,os_version:7,browser:Firefox,browser_version:59.0
+
+nb_Repeat:1,duration:23,os:Windows,os_version:7,browser:Firefox,browser_version:58.0
+
+nb_Repeat:1,duration:22,os:Windows,os_version:7,browser:Firefox,browser_version:57.0
+
+nb_Repeat:1,duration:33,os:Windows,os_version:7,browser:IE,browser_version:11.0
+
+nb_Repeat:1,duration:55,os:Windows,os_version:7,browser:IE,browser_version:10.0
+
+
+
+
+nb_Repeat:1,duration:23,os:Windows,os_version:XP,browser:Chrome,browser_version:49.0
+
+nb_Repeat:1,duration:22,os:Windows,os_version:XP,browser:Chrome,browser_version:48.0
+
+nb_Repeat:1,duration:22,os:Windows,os_version:XP,browser:Firefox,browser_version:47.0
+
+nb_Repeat:1,duration:22,os:Windows,os_version:XP,browser:Firefox,browser_version:47.0
+
+nb_Repeat:1,duration:4,os:Windows,os_version:XP,browser:IE,browser_version:7.0
+
+nb_Repeat:1,duration:10,os:Windows,os_version:XP,browser:IE,browser_version:6.0
+
+
+nb_Repeat:1,duration:24,os:OS X,os_version:High Sierra,browser:Safari,browser_version:11.0
+
+nb_Repeat:1,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:66.0
+
+nb_Repeat:1,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:65.0
+
+nb_Repeat:1,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:64.0
+
+nb_Repeat:1,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:63.0
+
+nb_Repeat:1,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:60.0 beta
+
+nb_Repeat:1,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:59.0
+
+nb_Repeat:1,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:58.0
+
+nb_Repeat:1,duration:26,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:57.0
+
+nb_Repeat:1,duration:22,os:OS X,os_version:Sierra,browser:Safari,browser_version:10.0
+
+nb_Repeat:1,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:66.0
+
+nb_Repeat:1,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:65.0
+
+nb_Repeat:1,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:64.0
+
+nb_Repeat:1,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:63.0
+
+nb_Repeat:1,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:60.0 beta
+
+nb_Repeat:1,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:59.0
+
+nb_Repeat:1,duration:25,os:OS X,os_version:Sierra,browser:Chrome,browser_version:58.0
+
+nb_Repeat:1,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:57.0
+
+nb_Repeat:1,duration:22,os:OS X,os_version:El Capitan,browser:Safari,browser_version:9.1
+
+nb_Repeat:1,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:66.0
+
+nb_Repeat:1,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:65.0
+
+nb_Repeat:1,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:64.0
+
+nb_Repeat:1,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:63.0
+
+nb_Repeat:1,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:60.0 beta
+
+nb_Repeat:1,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:59.0
+
+nb_Repeat:1,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:58.0
+
+nb_Repeat:1,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:57.0
+
+nb_Repeat:1,duration:22,os:OS X,os_version:Yosemite,browser:Safari,browser_version:8.0
+
+nb_Repeat:1,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:66.0
+
+nb_Repeat:1,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:65.0
+
+nb_Repeat:1,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:64.0
+
+nb_Repeat:1,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:63.0
+
+nb_Repeat:1,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:60.0 beta
+
+nb_Repeat:1,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:59.0
+
+nb_Repeat:1,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:58.0
+
+nb_Repeat:1,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:57.0
+
+nb_Repeat:2,duration:24,os:Windows,os_version:10,browser:Chrome,browser_version:66.0
+
+nb_Repeat:2,duration:22,os:Windows,os_version:10,browser:Chrome,browser_version:65.0
+
+nb_Repeat:2,duration:22,os:Windows,os_version:10,browser:Chrome,browser_version:64.0
+
+nb_Repeat:2,duration:22,os:Windows,os_version:10,browser:Chrome,browser_version:63.0
+
+nb_Repeat:2,duration:24,os:Windows,os_version:10,browser:Chrome,browser_version:62.0
+
+nb_Repeat:2,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:61.0
+
+nb_Repeat:2,duration:24,os:Windows,os_version:10,browser:Chrome,browser_version:60.0
+
+nb_Repeat:2,duration:24,os:Windows,os_version:10,browser:Firefox,browser_version:60.0 beta
+
+nb_Repeat:2,duration:24,os:Windows,os_version:10,browser:Firefox,browser_version:59.0
+
+nb_Repeat:2,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:58.0
+
+nb_Repeat:2,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:57.0
+
+nb_Repeat:2,duration:23,os:Windows,os_version:10,browser:IE,browser_version:11.0
+
+
+nb_Repeat:2,duration:22,os:Windows,os_version:8.1,browser:Chrome,browser_version:66.0
+
+nb_Repeat:2,duration:24,os:Windows,os_version:8.1,browser:Chrome,browser_version:65.0
+
+nb_Repeat:2,duration:22,os:Windows,os_version:8.1,browser:Chrome,browser_version:64.0
+
+nb_Repeat:2,duration:25,os:Windows,os_version:8.1,browser:Chrome,browser_version:63.0
+
+nb_Repeat:2,duration:22,os:Windows,os_version:8.1,browser:Chrome,browser_version:62.0
+
+nb_Repeat:2,duration:24,os:Windows,os_version:8.1,browser:Chrome,browser_version:61.0
+
+nb_Repeat:2,duration:23,os:Windows,os_version:8.1,browser:Chrome,browser_version:60.0
+
+nb_Repeat:2,duration:23,os:Windows,os_version:8.1,browser:Firefox,browser_version:60.0 beta
+
+nb_Repeat:2,duration:23,os:Windows,os_version:8.1,browser:Firefox,browser_version:59.0
+
+nb_Repeat:2,duration:22,os:Windows,os_version:8.1,browser:Firefox,browser_version:58.0
+
+nb_Repeat:2,duration:23,os:Windows,os_version:8.1,browser:Firefox,browser_version:57.0
+
+nb_Repeat:2,duration:26,os:Windows,os_version:8.1,browser:IE,browser_version:11.0
+
+
+nb_Repeat:2,duration:24,os:Windows,os_version:7,browser:Chrome,browser_version:66.0
+
+nb_Repeat:2,duration:23,os:Windows,os_version:7,browser:Chrome,browser_version:65.0
+
+nb_Repeat:2,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:64.0
+
+nb_Repeat:2,duration:23,os:Windows,os_version:7,browser:Chrome,browser_version:63.0
+
+nb_Repeat:2,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:62.0
+
+nb_Repeat:2,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:61.0
+
+nb_Repeat:2,duration:24,os:Windows,os_version:7,browser:Chrome,browser_version:60.0
+
+nb_Repeat:2,duration:26,os:Windows,os_version:7,browser:Firefox,browser_version:60.0 beta
+
+nb_Repeat:2,duration:22,os:Windows,os_version:7,browser:Firefox,browser_version:59.0
+
+nb_Repeat:2,duration:22,os:Windows,os_version:7,browser:Firefox,browser_version:58.0
+
+nb_Repeat:2,duration:23,os:Windows,os_version:7,browser:Firefox,browser_version:57.0
+
+nb_Repeat:2,duration:34,os:Windows,os_version:7,browser:IE,browser_version:11.0
+
+nb_Repeat:2,duration:42,os:Windows,os_version:7,browser:IE,browser_version:10.0
+
+
+
+
+nb_Repeat:2,duration:22,os:Windows,os_version:XP,browser:Chrome,browser_version:49.0
+
+nb_Repeat:2,duration:23,os:Windows,os_version:XP,browser:Chrome,browser_version:48.0
+
+nb_Repeat:2,duration:23,os:Windows,os_version:XP,browser:Firefox,browser_version:47.0
+
+nb_Repeat:2,duration:22,os:Windows,os_version:XP,browser:Firefox,browser_version:47.0
+
+nb_Repeat:2,duration:5,os:Windows,os_version:XP,browser:IE,browser_version:7.0
+
+
+
+nb_Repeat:2,duration:23,os:OS X,os_version:High Sierra,browser:Safari,browser_version:11.0
+
+nb_Repeat:2,duration:22,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:66.0
+
+nb_Repeat:2,duration:22,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:65.0
+
+nb_Repeat:2,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:64.0
+
+nb_Repeat:2,duration:25,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:63.0
+
+nb_Repeat:2,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:60.0 beta
+
+nb_Repeat:2,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:59.0
+
+nb_Repeat:2,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:58.0
+
+nb_Repeat:2,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:57.0
+
+nb_Repeat:2,duration:23,os:OS X,os_version:Sierra,browser:Safari,browser_version:10.0
+
+nb_Repeat:2,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:66.0
+
+nb_Repeat:2,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:65.0
+
+nb_Repeat:2,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:64.0
+
+nb_Repeat:2,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:63.0
+
+nb_Repeat:2,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:60.0 beta
+
+nb_Repeat:2,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:59.0
+
+nb_Repeat:2,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:58.0
+
+nb_Repeat:2,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:57.0
+
+nb_Repeat:2,duration:23,os:OS X,os_version:El Capitan,browser:Safari,browser_version:9.1
+
+nb_Repeat:2,duration:24,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:66.0
+
+nb_Repeat:2,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:65.0
+
+nb_Repeat:2,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:64.0
+
+nb_Repeat:2,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:63.0
+
+nb_Repeat:2,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:60.0 beta
+
+nb_Repeat:2,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:59.0
+
+nb_Repeat:2,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:58.0
+
+nb_Repeat:2,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:57.0
+
+nb_Repeat:2,duration:22,os:OS X,os_version:Yosemite,browser:Safari,browser_version:8.0
+
+nb_Repeat:2,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:66.0
+
+nb_Repeat:2,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:65.0
+
+nb_Repeat:2,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:64.0
+
+nb_Repeat:2,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:63.0
+
+nb_Repeat:2,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:60.0 beta
+
+nb_Repeat:2,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:59.0
+
+nb_Repeat:2,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:58.0
+
+nb_Repeat:2,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:57.0
+
+nb_Repeat:3,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:66.0
+
+nb_Repeat:3,duration:22,os:Windows,os_version:10,browser:Chrome,browser_version:65.0
+
+nb_Repeat:3,duration:24,os:Windows,os_version:10,browser:Chrome,browser_version:64.0
+
+nb_Repeat:3,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:63.0
+
+nb_Repeat:3,duration:22,os:Windows,os_version:10,browser:Chrome,browser_version:62.0
+
+nb_Repeat:3,duration:24,os:Windows,os_version:10,browser:Chrome,browser_version:61.0
+
+nb_Repeat:3,duration:24,os:Windows,os_version:10,browser:Chrome,browser_version:60.0
+
+nb_Repeat:3,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:60.0 beta
+
+nb_Repeat:3,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:59.0
+
+nb_Repeat:3,duration:22,os:Windows,os_version:10,browser:Firefox,browser_version:58.0
+
+nb_Repeat:3,duration:22,os:Windows,os_version:10,browser:Firefox,browser_version:57.0
+
+nb_Repeat:3,duration:23,os:Windows,os_version:10,browser:IE,browser_version:11.0
+
+
+nb_Repeat:3,duration:24,os:Windows,os_version:8.1,browser:Chrome,browser_version:66.0
+
+nb_Repeat:3,duration:22,os:Windows,os_version:8.1,browser:Chrome,browser_version:65.0
+
+nb_Repeat:3,duration:22,os:Windows,os_version:8.1,browser:Chrome,browser_version:64.0
+
+nb_Repeat:3,duration:22,os:Windows,os_version:8.1,browser:Chrome,browser_version:63.0
+
+nb_Repeat:3,duration:24,os:Windows,os_version:8.1,browser:Chrome,browser_version:62.0
+
+nb_Repeat:3,duration:22,os:Windows,os_version:8.1,browser:Chrome,browser_version:61.0
+
+nb_Repeat:3,duration:22,os:Windows,os_version:8.1,browser:Chrome,browser_version:60.0
+
+nb_Repeat:3,duration:22,os:Windows,os_version:8.1,browser:Firefox,browser_version:60.0 beta
+
+nb_Repeat:3,duration:22,os:Windows,os_version:8.1,browser:Firefox,browser_version:59.0
+
+nb_Repeat:3,duration:22,os:Windows,os_version:8.1,browser:Firefox,browser_version:58.0
+
+nb_Repeat:3,duration:22,os:Windows,os_version:8.1,browser:Firefox,browser_version:57.0
+
+nb_Repeat:3,duration:23,os:Windows,os_version:8.1,browser:IE,browser_version:11.0
+
+
+nb_Repeat:3,duration:24,os:Windows,os_version:7,browser:Chrome,browser_version:66.0
+
+nb_Repeat:3,duration:23,os:Windows,os_version:7,browser:Chrome,browser_version:65.0
+
+nb_Repeat:3,duration:24,os:Windows,os_version:7,browser:Chrome,browser_version:64.0
+
+nb_Repeat:3,duration:27,os:Windows,os_version:7,browser:Chrome,browser_version:63.0
+
+nb_Repeat:3,duration:23,os:Windows,os_version:7,browser:Chrome,browser_version:62.0
+
+nb_Repeat:3,duration:24,os:Windows,os_versiTraceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 35, in load_page
+    wait.until(EC.visibility_of_element_located((By.XPATH, "//div[contains(@class, 'callenge-body')]")))
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 35, in load_page
+    wait.until(EC.visibility_of_element_located((By.XPATH, "//div[contains(@class, 'callenge-body')]")))
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 29, in load_page
+    desired_capabilities=caps
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 156, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 245, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Browser/Browser_Version not supported: {"platform"=>"Windows", "os_version"=>"7", "browserstack.networkLogs"=>false, "browser_version"=>"52", "browserName"=>"Opera", "build"=>"Windows 7 Opera", "browserstack.local"=>false, "os"=>"Windows", "browser"=>"Opera", "acceptSslCert"=>false, "language"=>"selenium/3.12.0 (python mac)"}
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 29, in load_page
+    desired_capabilities=caps
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 156, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 245, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Browser not permitted: {"platform"=>"Windows", "os_version"=>"10", "browserstack.networkLogs"=>false, "browser_version"=>"52", "browserName"=>"Opera", "build"=>"Windows 10 Opera", "browserstack.local"=>false, "os"=>"Windows", "browser"=>"Opera", "acceptSslCert"=>false, "language"=>"selenium/3.12.0 (python mac)"}
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 29, in load_page
+    desired_capabilities=caps
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 156, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 245, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Browser not permitted: {"platform"=>"Windows", "os_version"=>"10", "browserstack.networkLogs"=>false, "browser_version"=>"52", "browserName"=>"Opera", "build"=>"Windows 10 Opera", "browserstack.local"=>false, "os"=>"Windows", "browser"=>"Opera", "acceptSslCert"=>false, "language"=>"selenium/3.12.0 (python mac)"}
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 29, in load_page
+    desired_capabilities=caps
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 156, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 245, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Browser/Browser_Version not supported: {"platform"=>"Windows", "os_version"=>"8.1", "browserstack.networkLogs"=>false, "browser_version"=>"52", "browserName"=>"Opera", "build"=>"Windows 8.1 Opera", "browserstack.local"=>false, "os"=>"Windows", "browser"=>"Opera", "acceptSslCert"=>false, "language"=>"selenium/3.12.0 (python mac)"}
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 35, in load_page
+    wait.until(EC.visibility_of_element_located((By.XPATH, "//div[contains(@class, 'callenge-body')]")))
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 35, in load_page
+    wait.until(EC.visibility_of_element_located((By.XPATH, "//div[contains(@class, 'callenge-body')]")))
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 29, in load_page
+    desired_capabilities=caps
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 156, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 245, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Browser/Browser_Version not supported: {"platform"=>"Windows", "os_version"=>"7", "browserstack.networkLogs"=>false, "browser_version"=>"52", "browserName"=>"Opera", "build"=>"Windows 7 Opera", "browserstack.local"=>false, "os"=>"Windows", "browser"=>"Opera", "acceptSslCert"=>false, "language"=>"selenium/3.12.0 (python mac)"}
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 35, in load_page
+    wait.until(EC.visibility_of_element_located((By.XPATH, "//div[contains(@class, 'callenge-body')]")))
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 71, in until
+    value = method(self._driver)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/support/expected_conditions.py", line 127, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/support/expected_conditions.py", line 401, in _find_element
+    raise e
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: Modal dialog present: Revocation information for the security certificate for this site is not available. Do you want to proceed?
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: '185-129-71-136', ip: '185.129.71.136', os.name: 'windows', os.arch: 'x86', os.version: '5.2', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{enablePersistentHover=false, ignoreZoomSetting=false, handlesAlerts=true, version=6, platform=WINDOWS, nativeEvents=false, elementScrollBehavior=0, allowAsynchronousJavaScript=true, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=about:blank, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: e23e1750-f343-49d3-84ba-1584193584e6
+*** Element info: {Using=xpath, value=//div[contains(@class, 'callenge-body')]}
+Screenshot: available via screen
+Stacktrace:
+    at sun.reflect.NativeConstructorAccessorImpl.newInstance0 (None:-2)
+    at sun.reflect.NativeConstructorAccessorImpl.newInstance (None:-1)
+    at sun.reflect.DelegatingConstructorAccessorImpl.newInstance (None:-1)
+    at java.lang.reflect.Constructor.newInstance (None:-1)
+    at org.openqa.selenium.remote.ErrorHandler.createThrowable (ErrorHandler.java:206)
+    at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException (ErrorHandler.java:187)
+    at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed (ErrorHandler.java:154)
+    at org.openqa.selenium.remote.RemoteWebDriver.execute (RemoteWebDriver.java:678)
+    at org.openqa.selenium.remote.RemoteWebDriver.findElement (RemoteWebDriver.java:363)
+    at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath (RemoteWebDriver.java:500)
+    at org.openqa.selenium.By$ByXPath.findElement (By.java:361)
+    at org.openqa.selenium.remote.RemoteWebDriver.findElement (RemoteWebDriver.java:355)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (None:-2)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (None:-1)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (None:-1)
+    at java.lang.reflect.Method.invoke (None:-1)
+    at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke (EventFiringWebDriver.java:103)
+    at com.sun.proxy.$Proxy1.findElement (None:-1)
+    at org.openqa.selenium.support.events.EventFiringWebDriver.findElement (EventFiringWebDriver.java:188)
+    at org.openqa.selenium.remote.server.handler.FindElement.call (FindElement.java:48)
+    at org.openqa.selenium.remote.server.handler.FindElement.call (FindElement.java:1)
+    at java.util.concurrent.FutureTask.run (None:-1)
+    at org.openqa.selenium.remote.server.DefaultSession$1.run (DefaultSession.java:176)
+    at java.util.concurrent.ThreadPoolExecutor.runWorker (None:-1)
+    at java.util.concurrent.ThreadPoolExecutor$Worker.run (None:-1)
+    at java.lang.Thread.run (None:-1)
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 29, in load_page
+    desired_capabilities=caps
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 156, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 245, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Browser not permitted: {"platform"=>"Windows", "os_version"=>"10", "browserstack.networkLogs"=>false, "browser_version"=>"52", "browserName"=>"Opera", "build"=>"Windows 10 Opera", "browserstack.local"=>false, "os"=>"Windows", "browser"=>"Opera", "acceptSslCert"=>false, "language"=>"selenium/3.12.0 (python mac)"}
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 29, in load_page
+    desired_capabilities=caps
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 156, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 245, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Browser not permitted: {"platform"=>"Windows", "os_version"=>"10", "browserstack.networkLogs"=>false, "browser_version"=>"52", "browserName"=>"Opera", "build"=>"Windows 10 Opera", "browserstack.local"=>false, "os"=>"Windows", "browser"=>"Opera", "acceptSslCert"=>false, "language"=>"selenium/3.12.0 (python mac)"}
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 29, in load_page
+    desired_capabilities=caps
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 156, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 245, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Browser/Browser_Version not supported: {"platform"=>"Windows", "os_version"=>"8.1", "browserstack.networkLogs"=>false, "browser_version"=>"52", "browserName"=>"Opera", "build"=>"Windows 8.1 Opera", "browserstack.local"=>false, "os"=>"Windows", "browser"=>"Opera", "acceptSslCert"=>false, "language"=>"selenium/3.12.0 (python mac)"}
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 33, in load_page
+    driver.get(page_url)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 326, in get
+    self.execute(Command.GET, {'url': url})
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Unable to communicate to node
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 35, in load_page
+    wait.until(EC.visibility_of_element_located((By.XPATH, "//div[contains(@class, 'callenge-body')]")))
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 35, in load_page
+    wait.until(EC.visibility_of_element_located((By.XPATH, "//div[contains(@class, 'callenge-body')]")))
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 29, in load_page
+    desired_capabilities=caps
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 156, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 245, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Browser/Browser_Version not supported: {"platform"=>"Windows", "os_version"=>"7", "browserstack.networkLogs"=>false, "browser_version"=>"52", "browserName"=>"Opera", "build"=>"Windows 7 Opera", "browserstack.local"=>false, "os"=>"Windows", "browser"=>"Opera", "acceptSslCert"=>false, "language"=>"selenium/3.12.0 (python mac)"}
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 35, in load_page
+    wait.until(EC.visibility_of_element_located((By.XPATH, "//div[contains(@class, 'callenge-body')]")))
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 71, in until
+    value = method(self._driver)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/support/expected_conditions.py", line 127, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/support/expected_conditions.py", line 401, in _find_element
+    raise e
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: Modal dialog present: Revocation information for the security certificate for this site is not available. Do you want to proceed?
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: '185-129-69-111', ip: '185.129.69.111', os.name: 'windows', os.arch: 'x86', os.version: '5.2', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{enablePersistentHover=false, ignoreZoomSetting=false, handlesAlerts=true, version=6, platform=WINDOWS, nativeEvents=false, elementScrollBehavior=0, allowAsynchronousJavaScript=true, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=about:blank, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 55a75a91-d00a-4df9-9f5a-f1c7ea0832e1
+*** Element info: {Using=xpath, value=//div[contains(@class, 'callenge-body')]}
+Screenshot: available via screen
+Stacktrace:
+    at sun.reflect.NativeConstructorAccessorImpl.newInstance0 (None:-2)
+    at sun.reflect.NativeConstructorAccessorImpl.newInstance (None:-1)
+    at sun.reflect.DelegatingConstructorAccessorImpl.newInstance (None:-1)
+    at java.lang.reflect.Constructor.newInstance (None:-1)
+    at org.openqa.selenium.remote.ErrorHandler.createThrowable (ErrorHandler.java:206)
+    at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException (ErrorHandler.java:187)
+    at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed (ErrorHandler.java:154)
+    at org.openqa.selenium.remote.RemoteWebDriver.execute (RemoteWebDriver.java:678)
+    at org.openqa.selenium.remote.RemoteWebDriver.findElement (RemoteWebDriver.java:363)
+    at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath (RemoteWebDriver.java:500)
+    at org.openqa.selenium.By$ByXPath.findElement (By.java:361)
+    at org.openqa.selenium.remote.RemoteWebDriver.findElement (RemoteWebDriver.java:355)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (None:-2)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (None:-1)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (None:-1)
+    at java.lang.reflect.Method.invoke (None:-1)
+    at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke (EventFiringWebDriver.java:103)
+    at com.sun.proxy.$Proxy1.findElement (None:-1)
+    at org.openqa.selenium.support.events.EventFiringWebDriver.findElement (EventFiringWebDriver.java:188)
+    at org.openqa.selenium.remote.server.handler.FindElement.call (FindElement.java:48)
+    at org.openqa.selenium.remote.server.handler.FindElement.call (FindElement.java:1)
+    at java.util.concurrent.FutureTask.run (None:-1)
+    at org.openqa.selenium.remote.server.DefaultSession$1.run (DefaultSession.java:176)
+    at java.util.concurrent.ThreadPoolExecutor.runWorker (None:-1)
+    at java.util.concurrent.ThreadPoolExecutor$Worker.run (None:-1)
+    at java.lang.Thread.run (None:-1)
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 29, in load_page
+    desired_capabilities=caps
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 156, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 245, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Browser not permitted: {"platform"=>"Windows", "os_version"=>"10", "browserstack.networkLogs"=>false, "browser_version"=>"52", "browserName"=>"Opera", "build"=>"Windows 10 Opera", "browserstack.local"=>false, "os"=>"Windows", "browser"=>"Opera", "acceptSslCert"=>false, "language"=>"selenium/3.12.0 (python mac)"}
+
+on:7,browser:Chrome,browser_version:61.0
+
+nb_Repeat:3,duration:25,os:Windows,os_version:7,browser:Chrome,browser_version:60.0
+
+nb_Repeat:3,duration:22,os:Windows,os_version:7,browser:Firefox,browser_version:60.0 beta
+
+nb_Repeat:3,duration:23,os:Windows,os_version:7,browser:Firefox,browser_version:59.0
+
+nb_Repeat:3,duration:23,os:Windows,os_version:7,browser:Firefox,browser_version:58.0
+
+nb_Repeat:3,duration:22,os:Windows,os_version:7,browser:Firefox,browser_version:57.0
+
+nb_Repeat:3,duration:23,os:Windows,os_version:7,browser:IE,browser_version:11.0
+
+nb_Repeat:3,duration:37,os:Windows,os_version:7,browser:IE,browser_version:10.0
+
+
+
+
+nb_Repeat:3,duration:23,os:Windows,os_version:XP,browser:Chrome,browser_version:49.0
+
+nb_Repeat:3,duration:23,os:Windows,os_version:XP,browser:Chrome,browser_version:48.0
+
+nb_Repeat:3,duration:22,os:Windows,os_version:XP,browser:Firefox,browser_version:47.0
+
+nb_Repeat:3,duration:23,os:Windows,os_version:XP,browser:Firefox,browser_version:47.0
+
+nb_Repeat:3,duration:5,os:Windows,os_version:XP,browser:IE,browser_version:7.0
+
+nb_Repeat:3,duration:9,os:Windows,os_version:XP,browser:IE,browser_version:6.0
+
+
+nb_Repeat:3,duration:23,os:OS X,os_version:High Sierra,browser:Safari,browser_version:11.0
+
+nb_Repeat:3,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:66.0
+
+nb_Repeat:3,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:65.0
+
+nb_Repeat:3,duration:22,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:64.0
+
+nb_Repeat:3,duration:27,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:63.0
+
+nb_Repeat:3,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:60.0 beta
+
+nb_Repeat:3,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:59.0
+
+nb_Repeat:3,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:58.0
+
+nb_Repeat:3,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:57.0
+
+nb_Repeat:3,duration:22,os:OS X,os_version:Sierra,browser:Safari,browser_version:10.0
+
+nb_Repeat:3,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:66.0
+
+nb_Repeat:3,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:65.0
+
+nb_Repeat:3,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:64.0
+
+nb_Repeat:3,duration:24,os:OS X,os_version:Sierra,browser:Chrome,browser_version:63.0
+
+nb_Repeat:3,duration:24,os:OS X,os_version:Sierra,browser:Chrome,browser_version:60.0 beta
+
+nb_Repeat:3,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:59.0
+
+nb_Repeat:3,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:58.0
+
+nb_Repeat:3,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:57.0
+
+nb_Repeat:3,duration:22,os:OS X,os_version:El Capitan,browser:Safari,browser_version:9.1
+
+nb_Repeat:3,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:66.0
+
+nb_Repeat:3,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:65.0
+
+nb_Repeat:3,duration:24,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:64.0
+
+nb_Repeat:3,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:63.0
+
+nb_Repeat:3,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:60.0 beta
+
+nb_Repeat:3,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:59.0
+
+nb_Repeat:3,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:58.0
+
+nb_Repeat:3,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:57.0
+
+nb_Repeat:3,duration:22,os:OS X,os_version:Yosemite,browser:Safari,browser_version:8.0
+
+nb_Repeat:3,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:66.0
+
+nb_Repeat:3,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:65.0
+
+nb_Repeat:3,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:64.0
+
+nb_Repeat:3,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:63.0
+
+nb_Repeat:3,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:60.0 beta
+
+nb_Repeat:3,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:59.0
+
+nb_Repeat:3,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:58.0
+
+nb_Repeat:3,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:57.0
+
+nb_Repeat:4,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:66.0
+
+nb_Repeat:4,duration:22,os:Windows,os_version:10,browser:Chrome,browser_version:65.0
+
+nb_Repeat:4,duration:22,os:Windows,os_version:10,browser:Chrome,browser_version:64.0
+
+nb_Repeat:4,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:63.0
+
+nb_Repeat:4,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:62.0
+
+nb_Repeat:4,duration:22,os:Windows,os_version:10,browser:Chrome,browser_version:61.0
+
+nb_Repeat:4,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:60.0
+
+nb_Repeat:4,duration:22,os:Windows,os_version:10,browser:Firefox,browser_version:60.0 beta
+
+nb_Repeat:4,duration:22,os:Windows,os_version:10,browser:Firefox,browser_version:59.0
+
+nb_Repeat:4,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:58.0
+
+nb_Repeat:4,duration:22,os:Windows,os_version:10,browser:Firefox,browser_version:57.0
+
+nb_Repeat:4,duration:23,os:Windows,os_version:10,browser:IE,browser_version:11.0
+
+
+nb_Repeat:4,duration:22,os:Windows,os_version:8.1,browser:Chrome,browser_version:66.0
+
+nb_Repeat:4,duration:23,os:Windows,os_version:8.1,browser:Chrome,browser_version:65.0
+
+nb_Repeat:4,duration:22,os:Windows,os_version:8.1,browser:Chrome,browser_version:64.0
+
+nb_Repeat:4,duration:22,os:Windows,os_version:8.1,browser:Chrome,browser_version:63.0
+
+nb_Repeat:4,duration:23,os:Windows,os_version:8.1,browser:Chrome,browser_version:62.0
+
+nb_Repeat:4,duration:22,os:Windows,os_version:8.1,browser:Chrome,browser_version:61.0
+
+nb_Repeat:4,duration:22,os:Windows,os_version:8.1,browser:Chrome,browser_version:60.0
+
+nb_Repeat:4,duration:22,os:Windows,os_version:8.1,browser:Firefox,browser_version:60.0 beta
+
+nb_Repeat:4,duration:23,os:Windows,os_version:8.1,browser:Firefox,browser_version:59.0
+
+nb_Repeat:4,duration:23,os:Windows,os_version:8.1,browser:Firefox,browser_version:58.0
+
+nb_Repeat:4,duration:23,os:Windows,os_version:8.1,browser:Firefox,browser_version:57.0
+
+nb_Repeat:4,duration:22,os:Windows,os_version:8.1,browser:IE,browser_version:11.0
+
+
+nb_Repeat:4,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:66.0
+
+nb_Repeat:4,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:65.0
+
+nb_Repeat:4,duration:24,os:Windows,os_version:7,browser:Chrome,browser_version:64.0
+
+nb_Repeat:4,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:63.0
+
+nb_Repeat:4,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:62.0
+
+nb_Repeat:4,duration:23,os:Windows,os_version:7,browser:Chrome,browser_version:61.0
+
+nb_Repeat:4,duration:23,os:Windows,os_version:7,browser:Chrome,browser_version:60.0
+
+nb_Repeat:4,duration:22,os:Windows,os_version:7,browser:Firefox,browser_version:60.0 beta
+
+nb_Repeat:4,duration:23,os:Windows,os_version:7,browser:Firefox,browser_version:59.0
+
+nb_Repeat:4,duration:23,os:Windows,os_version:7,browser:Firefox,browser_version:58.0
+
+nb_Repeat:4,duration:23,os:Windows,os_version:7,browser:Firefox,browser_version:57.0
+
+nb_Repeat:4,duration:34,os:Windows,os_version:7,browser:IE,browser_version:11.0
+
+nb_Repeat:4,duration:35,os:Windows,os_version:7,browser:IE,browser_version:10.0
+
+
+
+
+nb_Repeat:4,duration:24,os:Windows,os_version:XP,browser:Chrome,browser_version:49.0
+
+nb_Repeat:4,duration:23,os:Windows,os_version:XP,browser:Chrome,browser_version:48.0
+
+nb_Repeat:4,duration:23,os:Windows,os_version:XP,browser:Firefox,browser_version:47.0
+
+nb_Repeat:4,duration:23,os:Windows,os_version:XP,browser:Firefox,browser_version:47.0
+
+nb_Repeat:4,duration:5,os:Windows,os_version:XP,browser:IE,browser_version:7.0
+
+
+
+nb_Repeat:4,duration:22,os:OS X,os_version:High Sierra,browser:Safari,browser_version:11.0
+
+nb_Repeat:4,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:66.0
+
+nb_Repeat:4,duration:22,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:65.0
+
+nb_Repeat:4,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:64.0
+
+nb_Repeat:4,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:63.0
+
+nb_Repeat:4,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:60.0 beta
+
+nb_Repeat:4,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:59.0
+
+nb_Repeat:4,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:58.0
+
+nb_Repeat:4,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:57.0
+
+nb_Repeat:4,duration:21,os:OS X,os_version:Sierra,browser:Safari,browser_version:10.0
+
+nb_Repeat:4,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:66.0
+
+nb_Repeat:4,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:65.0
+
+nb_Repeat:4,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:64.0
+
+nb_Repeat:4,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:63.0
+
+nb_Repeat:4,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:60.0 beta
+
+nb_Repeat:4,duration:24,os:OS X,os_version:Sierra,browser:Chrome,browser_version:59.0
+
+nb_Repeat:4,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:58.0
+
+nb_Repeat:4,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:57.0
+
+nb_Repeat:4,duration:23,os:OS X,os_version:El Capitan,browser:Safari,browser_version:9.1
+
+nb_Repeat:4,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:66.0
+
+nb_Repeat:4,duration:25,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:65.0
+
+nb_Repeat:4,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:64.0
+
+nb_Repeat:4,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:63.0
+
+nb_Repeat:4,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:60.0 beta
+
+nb_Repeat:4,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:59.0
+
+nb_Repeat:4,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:58.0
+
+nb_Repeat:4,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:57.0
+
+nb_Repeat:4,duration:23,os:OS X,os_version:Yosemite,browser:Safari,browser_version:8.0
+
+nb_Repeat:4,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:66.0
+
+nb_Repeat:4,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:65.0
+
+nb_Repeat:4,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:64.0
+
+nb_Repeat:4,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:63.0
+
+nb_Repeat:4,duration:24,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:60.0 beta
+
+nb_Repeat:4,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:59.0
+
+nb_Repeat:4,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:58.0
+
+nb_Repeat:4,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:57.0
+
+nb_Repeat:5,duration:24,os:Windows,os_version:10,browser:Chrome,browser_version:66.0
+
+nb_Repeat:5,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:65.0
+
+nb_Repeat:5,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:64.0
+
+nb_Repeat:5,duration:22,os:Windows,os_version:10,browser:Chrome,browser_version:63.0
+
+nb_Repeat:5,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:62.0
+
+nb_Repeat:5,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:61.0
+
+nb_Repeat:5,duration:25,os:Windows,os_version:10,browser:Chrome,browser_version:60.0
+
+nb_Repeat:5,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:60.0 beta
+
+nb_Repeat:5,duration:22,os:Windows,os_version:10,browser:Firefox,browser_version:59.0
+
+nb_Repeat:5,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:58.0
+
+nb_Repeat:5,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:57.0
+
+nb_Repeat:5,duration:23,os:Windows,os_version:10,browser:IE,browser_version:11.0
+
+
+nb_Repeat:5,duration:23,os:Windows,os_version:8.1,browser:Chrome,browser_version:66.0
+
+nb_Repeat:5,duration:22,os:Windows,os_version:8.1,browser:Chrome,browser_version:65.0
+
+nb_Repeat:5,duration:23,os:Windows,os_version:8.1,browser:Chrome,browser_version:64.0
+
+nb_Repeat:5,duration:23,os:Windows,os_version:8.1,browser:Chrome,browser_version:63.0
+
+nb_Repeat:5,duration:28,os:Windows,os_version:8.1,browser:Chrome,browser_version:62.0
+
+nb_Repeat:5,duration:24,os:Windows,os_version:8.1,browser:Chrome,browser_version:61.0
+
+nb_Repeat:5,duration:23,os:Windows,os_version:8.1,browser:Chrome,browser_version:60.0
+
+nb_Repeat:5,duration:23,os:Windows,os_version:8.1,browser:Firefox,browser_version:60.0 beta
+
+nb_Repeat:5,duration:23,os:Windows,os_version:8.1,browser:Firefox,browser_version:59.0
+
+nb_Repeat:5,duration:22,os:Windows,os_version:8.1,browser:Firefox,browser_version:58.0
+
+nb_Repeat:5,duration:22,os:Windows,os_version:8.1,browser:Firefox,browser_version:57.0
+
+nb_Repeat:5,duration:23,os:Windows,os_version:8.1,browser:IE,browser_version:11.0
+
+
+nb_Repeat:5,duration:23,os:Windows,os_version:7,browser:Chrome,browser_version:66.0
+
+nb_Repeat:5,duration:23,os:Windows,os_version:7,browser:Chrome,browser_version:65.0
+
+nb_Repeat:5,duration:23,os:Windows,os_version:7,browser:Chrome,browser_version:64.0
+
+nb_Repeat:5,duration:24,os:Windows,os_version:7,browser:Chrome,browser_version:63.0
+
+nb_Repeat:5,duration:24,os:Windows,os_version:7,browser:Chrome,browser_version:62.0
+
+nb_Repeat:5,duration:25,os:Windows,os_version:7,browser:Chrome,browser_version:61.0
+
+nb_Repeat:5,duration:23,os:Windows,os_version:7,browser:Chrome,browser_version:60.0
+
+nb_Repeat:5,duration:22,os:Windows,os_version:7,browser:Firefox,browser_version:60.0 beta
+
+nb_Repeat:5,duration:23,os:Windows,os_version:7,browser:Firefox,browser_version:59.0
+
+nb_Repeat:5,duration:23,os:Windows,os_version:7,browser:Firefox,browser_version:58.0
+
+nb_Repeat:5,duration:23,os:Windows,os_version:7,browser:Firefox,browser_version:57.0
+
+nb_Repeat:5,duration:24,os:Windows,os_version:7,browser:IE,browser_version:11.0
+
+
+
+
+
+nb_Repeat:5,duration:23,os:Windows,os_version:XP,browser:Chrome,browser_version:49.0
+
+nb_Repeat:5,duration:22,os:Windows,os_version:XP,browser:Chrome,browser_version:48.0
+
+nb_Repeat:5,duration:22,os:Windows,os_version:XP,browser:Firefox,browser_version:47.0
+
+nb_Repeat:5,duration:22,os:Windows,os_version:XP,browser:Firefox,browser_version:47.0
+
+nb_Repeat:5,duration:5,os:Windows,os_version:XP,browser:IE,browser_version:7.0
+
+
+
+nb_Repeat:5,duration:22,os:OS X,os_version:High Sierra,browser:Safari,browser_version:11.0
+
+nb_Repeat:5,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:66.0
+
+nb_Repeat:5,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:65.0
+
+nb_Repeat:5,duration:22,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:64.0
+
+nb_Repeat:5,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:63.0
+
+nb_Repeat:5,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:60.0 beta
+
+nb_Repeat:5,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:59.0
+
+nb_Repeat:5,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:58.0
+
+nb_Repeat:5,duration:25,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:57.0
+
+nb_Repeat:5,duration:24,os:OS X,os_version:Sierra,browser:Safari,browser_version:10.0
+
+nb_Repeat:5,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:66.0
+
+nb_Repeat:5,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:65.0
+
+nb_Repeat:5,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:64.0
+
+nb_Repeat:5,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:63.0
+
+nb_Repeat:5,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:60.0 beta
+
+nb_Repeat:5,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:59.0
+
+nb_Repeat:5,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:58.0
+
+nb_Repeat:5,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:57.0
+
+nb_Repeat:5,duration:23,os:OS X,os_version:El Capitan,browser:Safari,browser_version:9.1
+
+nb_Repeat:5,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:66.0
+
+nb_Repeat:5,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:65.0
+
+nb_Repeat:5,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:64.0
+
+nb_Repeat:5,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:63.0
+
+nb_Repeat:5,duration:25,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:60.0 beta
+
+nb_Repeat:5,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:59.0
+
+nb_Repeat:5,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:58.0
+
+nb_Repeat:5,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:57.0
+
+nb_Repeat:5,duration:24,os:OS X,os_version:Yosemite,browser:Safari,browser_version:8.0
+
+nb_Repeat:5,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:66.0
+
+nb_Repeat:5,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:65.0
+
+nb_Repeat:5,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:64.0
+
+nb_Repeat:5,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:63.0
+
+nb_Repeat:5,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:60.0 beta
+
+nb_Repeat:5,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:59.0
+
+nb_Repeat:5,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:58.0
+
+nb_Repeat:5,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:57.0
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 29, in load_page
+    desired_capabilities=caps
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 156, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 245, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Browser not permitted: {"platform"=>"Windows", "os_version"=>"10", "browserstack.networkLogs"=>false, "browser_version"=>"52", "browserName"=>"Opera", "build"=>"Windows 10 Opera", "browserstack.local"=>false, "os"=>"Windows", "browser"=>"Opera", "acceptSslCert"=>false, "language"=>"selenium/3.12.0 (python mac)"}
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 29, in load_page
+    desired_capabilities=caps
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 156, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 245, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Browser/Browser_Version not supported: {"platform"=>"Windows", "os_version"=>"8.1", "browserstack.networkLogs"=>false, "browser_version"=>"52", "browserName"=>"Opera", "build"=>"Windows 8.1 Opera", "browserstack.local"=>false, "os"=>"Windows", "browser"=>"Opera", "acceptSslCert"=>false, "language"=>"selenium/3.12.0 (python mac)"}
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 35, in load_page
+    wait.until(EC.visibility_of_element_located((By.XPATH, "//div[contains(@class, 'callenge-body')]")))
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 35, in load_page
+    wait.until(EC.visibility_of_element_located((By.XPATH, "//div[contains(@class, 'callenge-body')]")))
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 29, in load_page
+    desired_capabilities=caps
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 156, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 245, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Browser/Browser_Version not supported: {"platform"=>"Windows", "os_version"=>"7", "browserstack.networkLogs"=>false, "browser_version"=>"52", "browserName"=>"Opera", "build"=>"Windows 7 Opera", "browserstack.local"=>false, "os"=>"Windows", "browser"=>"Opera", "acceptSslCert"=>false, "language"=>"selenium/3.12.0 (python mac)"}
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 35, in load_page
+    wait.until(EC.visibility_of_element_located((By.XPATH, "//div[contains(@class, 'callenge-body')]")))
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 71, in until
+    value = method(self._driver)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/support/expected_conditions.py", line 127, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/support/expected_conditions.py", line 401, in _find_element
+    raise e
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: Modal dialog present: Revocation information for the security certificate for this site is not available. Do you want to proceed?
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: '185-129-70-202', ip: '185.129.70.202', os.name: 'windows', os.arch: 'x86', os.version: '5.2', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{enablePersistentHover=false, ignoreZoomSetting=false, handlesAlerts=true, version=6, platform=WINDOWS, nativeEvents=false, elementScrollBehavior=0, allowAsynchronousJavaScript=true, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=about:blank, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 7f52cca0-4530-46e1-aeb9-147b38e6d8c7
+*** Element info: {Using=xpath, value=//div[contains(@class, 'callenge-body')]}
+Screenshot: available via screen
+Stacktrace:
+    at sun.reflect.NativeConstructorAccessorImpl.newInstance0 (None:-2)
+    at sun.reflect.NativeConstructorAccessorImpl.newInstance (None:-1)
+    at sun.reflect.DelegatingConstructorAccessorImpl.newInstance (None:-1)
+    at java.lang.reflect.Constructor.newInstance (None:-1)
+    at org.openqa.selenium.remote.ErrorHandler.createThrowable (ErrorHandler.java:206)
+    at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException (ErrorHandler.java:187)
+    at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed (ErrorHandler.java:154)
+    at org.openqa.selenium.remote.RemoteWebDriver.execute (RemoteWebDriver.java:678)
+    at org.openqa.selenium.remote.RemoteWebDriver.findElement (RemoteWebDriver.java:363)
+    at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath (RemoteWebDriver.java:500)
+    at org.openqa.selenium.By$ByXPath.findElement (By.java:361)
+    at org.openqa.selenium.remote.RemoteWebDriver.findElement (RemoteWebDriver.java:355)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (None:-2)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (None:-1)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (None:-1)
+    at java.lang.reflect.Method.invoke (None:-1)
+    at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke (EventFiringWebDriver.java:103)
+    at com.sun.proxy.$Proxy1.findElement (None:-1)
+    at org.openqa.selenium.support.events.EventFiringWebDriver.findElement (EventFiringWebDriver.java:188)
+    at org.openqa.selenium.remote.server.handler.FindElement.call (FindElement.java:48)
+    at org.openqa.selenium.remote.server.handler.FindElement.call (FindElement.java:1)
+    at java.util.concurrent.FutureTask.run (None:-1)
+    at org.openqa.selenium.remote.server.DefaultSession$1.run (DefaultSession.java:176)
+    at java.util.concurrent.ThreadPoolExecutor.runWorker (None:-1)
+    at java.util.concurrent.ThreadPoolExecutor$Worker.run (None:-1)
+    at java.lang.Thread.run (None:-1)
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 29, in load_page
+    desired_capabilities=caps
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 156, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 245, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Browser not permitted: {"platform"=>"Windows", "os_version"=>"10", "browserstack.networkLogs"=>false, "browser_version"=>"52", "browserName"=>"Opera", "build"=>"Windows 10 Opera", "browserstack.local"=>false, "os"=>"Windows", "browser"=>"Opera", "acceptSslCert"=>false, "language"=>"selenium/3.12.0 (python mac)"}
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 29, in load_page
+    desired_capabilities=caps
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 156, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 245, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Browser not permitted: {"platform"=>"Windows", "os_version"=>"10", "browserstack.networkLogs"=>false, "browser_version"=>"52", "browserName"=>"Opera", "build"=>"Windows 10 Opera", "browserstack.local"=>false, "os"=>"Windows", "browser"=>"Opera", "acceptSslCert"=>false, "language"=>"selenium/3.12.0 (python mac)"}
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 29, in load_page
+    desired_capabilities=caps
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 156, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 245, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Browser/Browser_Version not supported: {"platform"=>"Windows", "os_version"=>"8.1", "browserstack.networkLogs"=>false, "browser_version"=>"52", "browserName"=>"Opera", "build"=>"Windows 8.1 Opera", "browserstack.local"=>false, "os"=>"Windows", "browser"=>"Opera", "acceptSslCert"=>false, "language"=>"selenium/3.12.0 (python mac)"}
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 35, in load_page
+    wait.until(EC.visibility_of_element_located((By.XPATH, "//div[contains(@class, 'callenge-body')]")))
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 35, in load_page
+    wait.until(EC.visibility_of_element_located((By.XPATH, "//div[contains(@class, 'callenge-body')]")))
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 29, in load_page
+    desired_capabilities=caps
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 156, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 245, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Browser/Browser_Version not supported: {"platform"=>"Windows", "os_version"=>"7", "browserstack.networkLogs"=>false, "browser_version"=>"52", "browserName"=>"Opera", "build"=>"Windows 7 Opera", "browserstack.local"=>false, "os"=>"Windows", "browser"=>"Opera", "acceptSslCert"=>false, "language"=>"selenium/3.12.0 (python mac)"}
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 29, in load_page
+    desired_capabilities=caps
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 156, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 245, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Browser not permitted: {"platform"=>"Windows", "os_version"=>"10", "browserstack.networkLogs"=>false, "browser_version"=>"52", "browserName"=>"Opera", "build"=>"Windows 10 Opera", "browserstack.local"=>false, "os"=>"Windows", "browser"=>"Opera", "acceptSslCert"=>false, "language"=>"selenium/3.12.0 (python mac)"}
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 29, in load_page
+    desired_capabilities=caps
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 156, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 245, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Browser not permitted: {"platform"=>"Windows", "os_version"=>"10", "browserstack.networkLogs"=>false, "browser_version"=>"52", "browserName"=>"Opera", "build"=>"Windows 10 Opera", "browserstack.local"=>false, "os"=>"Windows", "browser"=>"Opera", "acceptSslCert"=>false, "language"=>"selenium/3.12.0 (python mac)"}
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 29, in load_page
+    desired_capabilities=caps
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 156, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 245, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Browser/Browser_Version not supported: {"platform"=>"Windows", "os_version"=>"8.1", "browserstack.networkLogs"=>false, "browser_version"=>"52", "browserName"=>"Opera", "build"=>"Windows 8.1 Opera", "browserstack.local"=>false, "os"=>"Windows", "browser"=>"Opera", "acceptSslCert"=>false, "language"=>"selenium/3.12.0 (python mac)"}
+
+nb_Repeat:6,duration:22,os:Windows,os_version:10,browser:Chrome,browser_version:66.0
+
+nb_Repeat:6,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:65.0
+
+nb_Repeat:6,duration:22,os:Windows,os_version:10,browser:Chrome,browser_version:64.0
+
+nb_Repeat:6,duration:24,os:Windows,os_version:10,browser:Chrome,browser_version:63.0
+
+nb_Repeat:6,duration:22,os:Windows,os_version:10,browser:Chrome,browser_version:62.0
+
+nb_Repeat:6,duration:25,os:Windows,os_version:10,browser:Chrome,browser_version:61.0
+
+nb_Repeat:6,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:60.0
+
+nb_Repeat:6,duration:22,os:Windows,os_version:10,browser:Firefox,browser_version:60.0 beta
+
+nb_Repeat:6,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:59.0
+
+nb_Repeat:6,duration:25,os:Windows,os_version:10,browser:Firefox,browser_version:58.0
+
+nb_Repeat:6,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:57.0
+
+nb_Repeat:6,duration:23,os:Windows,os_version:10,browser:IE,browser_version:11.0
+
+
+nb_Repeat:6,duration:23,os:Windows,os_version:8.1,browser:Chrome,browser_version:66.0
+
+nb_Repeat:6,duration:23,os:Windows,os_version:8.1,browser:Chrome,browser_version:65.0
+
+nb_Repeat:6,duration:24,os:Windows,os_version:8.1,browser:Chrome,browser_version:64.0
+
+nb_Repeat:6,duration:23,os:Windows,os_version:8.1,browser:Chrome,browser_version:63.0
+
+nb_Repeat:6,duration:23,os:Windows,os_version:8.1,browser:Chrome,browser_version:62.0
+
+nb_Repeat:6,duration:23,os:Windows,os_version:8.1,browser:Chrome,browser_version:61.0
+
+nb_Repeat:6,duration:23,os:Windows,os_version:8.1,browser:Chrome,browser_version:60.0
+
+nb_Repeat:6,duration:22,os:Windows,os_version:8.1,browser:Firefox,browser_version:60.0 beta
+
+nb_Repeat:6,duration:23,os:Windows,os_version:8.1,browser:Firefox,browser_version:59.0
+
+nb_Repeat:6,duration:23,os:Windows,os_version:8.1,browser:Firefox,browser_version:58.0
+
+nb_Repeat:6,duration:24,os:Windows,os_version:8.1,browser:Firefox,browser_version:57.0
+
+nb_Repeat:6,duration:22,os:Windows,os_version:8.1,browser:IE,browser_version:11.0
+
+
+nb_Repeat:6,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:66.0
+
+nb_Repeat:6,duration:25,os:Windows,os_version:7,browser:Chrome,browser_version:65.0
+
+nb_Repeat:6,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:64.0
+
+nb_Repeat:6,duration:25,os:Windows,os_version:7,browser:Chrome,browser_version:63.0
+
+nb_Repeat:6,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:62.0
+
+nb_Repeat:6,duration:24,os:Windows,os_version:7,browser:Chrome,browser_version:61.0
+
+nb_Repeat:6,duration:23,os:Windows,os_version:7,browser:Chrome,browser_version:60.0
+
+nb_Repeat:6,duration:22,os:Windows,os_version:7,browser:Firefox,browser_version:60.0 beta
+
+nb_Repeat:6,duration:23,os:Windows,os_version:7,browser:Firefox,browser_version:59.0
+
+nb_Repeat:6,duration:23,os:Windows,os_version:7,browser:Firefox,browser_version:58.0
+
+nb_Repeat:6,duration:22,os:Windows,os_version:7,browser:Firefox,browser_version:57.0
+
+nb_Repeat:6,duration:33,os:Windows,os_version:7,browser:IE,browser_version:11.0
+
+nb_Repeat:6,duration:27,os:Windows,os_version:7,browser:IE,browser_version:10.0
+
+
+
+
+nb_Repeat:6,duration:22,os:Windows,os_version:XP,browser:Chrome,browser_version:49.0
+
+nb_Repeat:6,duration:23,os:Windows,os_version:XP,browser:Chrome,browser_version:48.0
+
+nb_Repeat:6,duration:22,os:Windows,os_version:XP,browser:Firefox,browser_version:47.0
+
+nb_Repeat:6,duration:22,os:Windows,os_version:XP,browser:Firefox,browser_version:47.0
+
+nb_Repeat:6,duration:4,os:Windows,os_version:XP,browser:IE,browser_version:7.0
+
+
+
+nb_Repeat:6,duration:23,os:OS X,os_version:High Sierra,browser:Safari,browser_version:11.0
+
+nb_Repeat:6,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:66.0
+
+nb_Repeat:6,duration:22,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:65.0
+
+nb_Repeat:6,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:64.0
+
+nb_Repeat:6,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:63.0
+
+nb_Repeat:6,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:60.0 beta
+
+nb_Repeat:6,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:59.0
+
+nb_Repeat:6,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:58.0
+
+nb_Repeat:6,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:57.0
+
+nb_Repeat:6,duration:22,os:OS X,os_version:Sierra,browser:Safari,browser_version:10.0
+
+nb_Repeat:6,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:66.0
+
+nb_Repeat:6,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:65.0
+
+nb_Repeat:6,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:64.0
+
+nb_Repeat:6,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:63.0
+
+nb_Repeat:6,duration:24,os:OS X,os_version:Sierra,browser:Chrome,browser_version:60.0 beta
+
+nb_Repeat:6,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:59.0
+
+nb_Repeat:6,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:58.0
+
+nb_Repeat:6,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:57.0
+
+nb_Repeat:6,duration:22,os:OS X,os_version:El Capitan,browser:Safari,browser_version:9.1
+
+nb_Repeat:6,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:66.0
+
+nb_Repeat:6,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:65.0
+
+nb_Repeat:6,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:64.0
+
+nb_Repeat:6,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:63.0
+
+nb_Repeat:6,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:60.0 beta
+
+nb_Repeat:6,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:59.0
+
+nb_Repeat:6,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:58.0
+
+nb_Repeat:6,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:57.0
+
+nb_Repeat:6,duration:22,os:OS X,os_version:Yosemite,browser:Safari,browser_version:8.0
+
+nb_Repeat:6,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:66.0
+
+nb_Repeat:6,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:65.0
+
+nb_Repeat:6,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:64.0
+
+nb_Repeat:6,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:63.0
+
+nb_Repeat:6,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:60.0 beta
+
+nb_Repeat:6,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:59.0
+
+nb_Repeat:6,duration:25,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:58.0
+
+nb_Repeat:6,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:57.0
+
+nb_Repeat:7,duration:22,os:Windows,os_version:10,browser:Chrome,browser_version:66.0
+
+nb_Repeat:7,duration:24,os:Windows,os_version:10,browser:Chrome,browser_version:65.0
+
+nb_Repeat:7,duration:22,os:Windows,os_version:10,browser:Chrome,browser_version:64.0
+
+nb_Repeat:7,duration:24,os:Windows,os_version:10,browser:Chrome,browser_version:63.0
+
+nb_Repeat:7,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:62.0
+
+nb_Repeat:7,duration:25,os:Windows,os_version:10,browser:Chrome,browser_version:61.0
+
+nb_Repeat:7,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:60.0
+
+nb_Repeat:7,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:60.0 beta
+
+nb_Repeat:7,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:59.0
+
+nb_Repeat:7,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:58.0
+
+nb_Repeat:7,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:57.0
+
+nb_Repeat:7,duration:25,os:Windows,os_version:10,browser:IE,browser_version:11.0
+
+
+nb_Repeat:7,duration:25,os:Windows,os_version:8.1,browser:Chrome,browser_version:66.0
+
+nb_Repeat:7,duration:22,os:Windows,os_version:8.1,browser:Chrome,browser_version:65.0
+
+nb_Repeat:7,duration:24,os:Windows,os_version:8.1,browser:Chrome,browser_version:64.0
+
+nb_Repeat:7,duration:22,os:Windows,os_version:8.1,browser:Chrome,browser_version:63.0
+
+nb_Repeat:7,duration:23,os:Windows,os_version:8.1,browser:Chrome,browser_version:62.0
+
+nb_Repeat:7,duration:26,os:Windows,os_version:8.1,browser:Chrome,browser_version:61.0
+
+nb_Repeat:7,duration:24,os:Windows,os_version:8.1,browser:Chrome,browser_version:60.0
+
+nb_Repeat:7,duration:23,os:Windows,os_version:8.1,browser:Firefox,browser_version:60.0 beta
+
+nb_Repeat:7,duration:23,os:Windows,os_version:8.1,browser:Firefox,browser_version:59.0
+
+nb_Repeat:7,duration:22,os:Windows,os_version:8.1,browser:Firefox,browser_version:58.0
+
+nb_Repeat:7,duration:22,os:Windows,os_version:8.1,browser:Firefox,browser_version:57.0
+
+nb_Repeat:7,duration:22,os:Windows,os_version:8.1,browser:IE,browser_version:11.0
+
+
+nb_Repeat:7,duration:24,os:Windows,os_version:7,browser:Chrome,browser_version:66.0
+
+nb_Repeat:7,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:65.0
+
+nb_Repeat:7,duration:25,os:Windows,os_version:7,browser:Chrome,browser_version:64.0
+
+nb_Repeat:7,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:63.0
+
+nb_Repeat:7,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:62.0
+
+nb_Repeat:7,duration:27,os:Windows,os_version:7,browser:Chrome,browser_version:61.0
+
+nb_Repeat:7,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:60.0
+
+nb_Repeat:7,duration:22,os:Windows,os_version:7,browser:Firefox,browser_version:60.0 beta
+
+nb_Repeat:7,duration:22,os:Windows,os_version:7,browser:Firefox,browser_version:59.0
+
+nb_Repeat:7,duration:23,os:Windows,os_version:7,browser:Firefox,browser_version:58.0
+
+nb_Repeat:7,duration:24,os:Windows,os_version:7,browser:Firefox,browser_version:57.0
+
+nb_Repeat:7,duration:33,os:Windows,os_version:7,browser:IE,browser_version:11.0
+
+nb_Repeat:7,duration:58,os:Windows,os_version:7,browser:IE,browser_version:10.0
+
+
+
+
+nb_Repeat:7,duration:23,os:Windows,os_version:XP,browser:Chrome,browser_version:49.0
+
+nb_Repeat:7,duration:29,os:Windows,os_version:XP,browser:Chrome,browser_version:48.0
+
+nb_Repeat:7,duration:22,os:Windows,os_version:XP,browser:Firefox,browser_version:47.0
+
+nb_Repeat:7,duration:22,os:Windows,os_version:XP,browser:Firefox,browser_version:47.0
+
+nb_Repeat:7,duration:4,os:Windows,os_version:XP,browser:IE,browser_version:7.0
+
+nb_Repeat:7,duration:11,os:Windows,os_version:XP,browser:IE,browser_version:6.0
+
+
+nb_Repeat:7,duration:24,os:OS X,os_version:High Sierra,browser:Safari,browser_version:11.0
+
+nb_Repeat:7,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:66.0
+
+nb_Repeat:7,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:65.0
+
+nb_Repeat:7,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:64.0
+
+nb_Repeat:7,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:63.0
+
+nb_Repeat:7,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:60.0 beta
+
+nb_Repeat:7,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:59.0
+
+nb_Repeat:7,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:58.0
+
+nb_Repeat:7,duration:25,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:57.0
+
+nb_Repeat:7,duration:24,os:OS X,os_version:Sierra,browser:Safari,browser_version:10.0
+
+nb_Repeat:7,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:66.0
+
+nb_Repeat:7,duration:24,os:OS X,os_version:Sierra,browser:Chrome,browser_version:65.0
+
+nb_Repeat:7,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:64.0
+
+nb_Repeat:7,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:63.0
+
+nb_Repeat:7,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:60.0 beta
+
+nb_Repeat:7,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:59.0
+
+nb_Repeat:7,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:58.0
+
+nb_Repeat:7,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:57.0
+
+nb_Repeat:7,duration:22,os:OS X,os_version:El Capitan,browser:Safari,browser_version:9.1
+
+nb_Repeat:7,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:66.0
+
+nb_Repeat:7,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:65.0
+
+nb_Repeat:7,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:64.0
+
+nb_Repeat:7,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:63.0
+
+nb_Repeat:7,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:60.0 beta
+
+nb_Repeat:7,duration:24,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:59.0
+
+nb_Repeat:7,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:58.0
+
+nb_Repeat:7,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:57.0
+
+nb_Repeat:7,duration:22,os:OS X,os_version:Yosemite,browser:Safari,browser_version:8.0
+
+nb_Repeat:7,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:66.0
+
+nb_Repeat:7,duration:24,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:65.0
+
+nb_Repeat:7,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:64.0
+
+nb_Repeat:7,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:63.0
+
+nb_Repeat:7,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:60.0 beta
+
+nb_Repeat:7,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:59.0
+
+nb_Repeat:7,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:58.0
+
+nb_Repeat:7,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:57.0
+
+nb_Repeat:8,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:66.0
+
+nb_Repeat:8,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:65.0
+
+nb_Repeat:8,duration:24,os:Windows,os_version:10,browser:Chrome,browser_version:64.0
+
+nb_Repeat:8,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:63.0
+
+nb_Repeat:8,duration:24,os:Windows,os_version:10,browser:Chrome,browser_version:62.0
+
+nb_Repeat:8,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:61.0
+
+nb_Repeat:8,duration:22,os:Windows,os_version:10,browser:Chrome,browser_version:60.0
+
+nb_Repeat:8,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:60.0 beta
+
+nb_Repeat:8,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:59.0
+
+nb_Repeat:8,duration:22,os:Windows,os_version:10,browser:Firefox,browser_version:58.0
+
+nb_Repeat:8,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:57.0
+
+nb_Repeat:8,duration:23,os:Windows,os_version:10,browser:IE,browser_version:11.0
+
+
+nb_Repeat:8,duration:23,os:Windows,os_version:8.1,browser:Chrome,browser_version:66.0
+
+nb_Repeat:8,duration:24,os:Windows,os_version:8.1,browser:Chrome,browser_version:65.0
+
+nb_Repeat:8,duration:23,os:Windows,os_version:8.1,browser:Chrome,browser_version:64.0
+
+nb_Repeat:8,duration:22,os:Windows,os_version:8.1,browser:Chrome,browser_version:63.0
+
+nb_Repeat:8,duration:30,os:Windows,os_version:8.1,browser:Chrome,browser_version:62.0
+
+nb_Repeat:8,duration:23,os:Windows,os_version:8.1,browser:Chrome,browser_version:61.0
+
+nb_Repeat:8,duration:24,os:Windows,os_version:8.1,browser:Chrome,browser_version:60.0
+
+nb_Repeat:8,duration:23,os:Windows,os_version:8.1,browser:Firefox,browser_version:60.0 beta
+
+nb_Repeat:8,duration:23,os:Windows,os_version:8.1,browser:Firefox,browser_version:59.0
+
+nb_Repeat:8,duration:22,os:Windows,os_version:8.1,browser:Firefox,browser_version:58.0
+
+nb_Repeat:8,duration:22,os:Windows,os_version:8.1,browser:Firefox,browser_version:57.0
+
+nb_Repeat:8,duration:22,os:Windows,os_version:8.1,browser:IE,browser_version:11.0
+
+
+nb_Repeat:8,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:66.0
+
+nb_Repeat:8,duration:26,os:Windows,os_version:7,browser:Chrome,browser_version:65.0
+
+nb_Repeat:8,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:64.0
+
+nb_Repeat:8,duration:25,os:Windows,os_version:7,browser:Chrome,browser_version:63.0
+
+nb_Repeat:8,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:62.0
+
+nb_Repeat:8,duration:24,os:Windows,os_versiTraceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 35, in load_page
+    wait.until(EC.visibility_of_element_located((By.XPATH, "//div[contains(@class, 'callenge-body')]")))
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 35, in load_page
+    wait.until(EC.visibility_of_element_located((By.XPATH, "//div[contains(@class, 'callenge-body')]")))
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 29, in load_page
+    desired_capabilities=caps
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 156, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 245, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Browser/Browser_Version not supported: {"platform"=>"Windows", "os_version"=>"7", "browserstack.networkLogs"=>false, "browser_version"=>"52", "browserName"=>"Opera", "build"=>"Windows 7 Opera", "browserstack.local"=>false, "os"=>"Windows", "browser"=>"Opera", "acceptSslCert"=>false, "language"=>"selenium/3.12.0 (python mac)"}
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 29, in load_page
+    desired_capabilities=caps
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 156, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 245, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Browser not permitted: {"platform"=>"Windows", "os_version"=>"10", "browserstack.networkLogs"=>false, "browser_version"=>"52", "browserName"=>"Opera", "build"=>"Windows 10 Opera", "browserstack.local"=>false, "os"=>"Windows", "browser"=>"Opera", "acceptSslCert"=>false, "language"=>"selenium/3.12.0 (python mac)"}
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 29, in load_page
+    desired_capabilities=caps
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 156, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 245, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Browser not permitted: {"platform"=>"Windows", "os_version"=>"10", "browserstack.networkLogs"=>false, "browser_version"=>"52", "browserName"=>"Opera", "build"=>"Windows 10 Opera", "browserstack.local"=>false, "os"=>"Windows", "browser"=>"Opera", "acceptSslCert"=>false, "language"=>"selenium/3.12.0 (python mac)"}
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 29, in load_page
+    desired_capabilities=caps
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 156, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 245, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Browser/Browser_Version not supported: {"platform"=>"Windows", "os_version"=>"8.1", "browserstack.networkLogs"=>false, "browser_version"=>"52", "browserName"=>"Opera", "build"=>"Windows 8.1 Opera", "browserstack.local"=>false, "os"=>"Windows", "browser"=>"Opera", "acceptSslCert"=>false, "language"=>"selenium/3.12.0 (python mac)"}
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 35, in load_page
+    wait.until(EC.visibility_of_element_located((By.XPATH, "//div[contains(@class, 'callenge-body')]")))
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 35, in load_page
+    wait.until(EC.visibility_of_element_located((By.XPATH, "//div[contains(@class, 'callenge-body')]")))
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 29, in load_page
+    desired_capabilities=caps
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 156, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 245, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Browser/Browser_Version not supported: {"platform"=>"Windows", "os_version"=>"7", "browserstack.networkLogs"=>false, "browser_version"=>"52", "browserName"=>"Opera", "build"=>"Windows 7 Opera", "browserstack.local"=>false, "os"=>"Windows", "browser"=>"Opera", "acceptSslCert"=>false, "language"=>"selenium/3.12.0 (python mac)"}
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 29, in load_page
+    desired_capabilities=caps
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 156, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 245, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Browser not permitted: {"platform"=>"Windows", "os_version"=>"10", "browserstack.networkLogs"=>false, "browser_version"=>"52", "browserName"=>"Opera", "build"=>"Windows 10 Opera", "browserstack.local"=>false, "os"=>"Windows", "browser"=>"Opera", "acceptSslCert"=>false, "language"=>"selenium/3.12.0 (python mac)"}
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 29, in load_page
+    desired_capabilities=caps
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 156, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 245, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Browser not permitted: {"platform"=>"Windows", "os_version"=>"10", "browserstack.networkLogs"=>false, "browser_version"=>"52", "browserName"=>"Opera", "build"=>"Windows 10 Opera", "browserstack.local"=>false, "os"=>"Windows", "browser"=>"Opera", "acceptSslCert"=>false, "language"=>"selenium/3.12.0 (python mac)"}
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 29, in load_page
+    desired_capabilities=caps
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 156, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 245, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Browser/Browser_Version not supported: {"platform"=>"Windows", "os_version"=>"8.1", "browserstack.networkLogs"=>false, "browser_version"=>"52", "browserName"=>"Opera", "build"=>"Windows 8.1 Opera", "browserstack.local"=>false, "os"=>"Windows", "browser"=>"Opera", "acceptSslCert"=>false, "language"=>"selenium/3.12.0 (python mac)"}
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 35, in load_page
+    wait.until(EC.visibility_of_element_located((By.XPATH, "//div[contains(@class, 'callenge-body')]")))
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 35, in load_page
+    wait.until(EC.visibility_of_element_located((By.XPATH, "//div[contains(@class, 'callenge-body')]")))
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 29, in load_page
+    desired_capabilities=caps
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 156, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 245, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Browser/Browser_Version not supported: {"platform"=>"Windows", "os_version"=>"7", "browserstack.networkLogs"=>false, "browser_version"=>"52", "browserName"=>"Opera", "build"=>"Windows 7 Opera", "browserstack.local"=>false, "os"=>"Windows", "browser"=>"Opera", "acceptSslCert"=>false, "language"=>"selenium/3.12.0 (python mac)"}
+
+Traceback (most recent call last):
+  File "browserstack.py", line 106, in <module>
+    is_ok = load_page(page_url,remote_hub,test_id,nb_repeat)
+  File "browserstack.py", line 29, in load_page
+    desired_capabilities=caps
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 156, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 245, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Browser not permitted: {"platform"=>"Windows", "os_version"=>"10", "browserstack.networkLogs"=>false, "browser_version"=>"52", "browserName"=>"Opera", "build"=>"Windows 10 Opera", "browserstack.local"=>false, "os"=>"Windows", "browser"=>"Opera", "acceptSslCert"=>false, "language"=>"selenium/3.12.0 (python mac)"}
+
+on:7,browser:Chrome,browser_version:61.0
+
+nb_Repeat:8,duration:24,os:Windows,os_version:7,browser:Chrome,browser_version:60.0
+
+nb_Repeat:8,duration:23,os:Windows,os_version:7,browser:Firefox,browser_version:60.0 beta
+
+nb_Repeat:8,duration:22,os:Windows,os_version:7,browser:Firefox,browser_version:59.0
+
+nb_Repeat:8,duration:23,os:Windows,os_version:7,browser:Firefox,browser_version:58.0
+
+nb_Repeat:8,duration:24,os:Windows,os_version:7,browser:Firefox,browser_version:57.0
+
+nb_Repeat:8,duration:34,os:Windows,os_version:7,browser:IE,browser_version:11.0
+
+nb_Repeat:8,duration:34,os:Windows,os_version:7,browser:IE,browser_version:10.0
+
+
+
+
+nb_Repeat:8,duration:22,os:Windows,os_version:XP,browser:Chrome,browser_version:49.0
+
+nb_Repeat:8,duration:27,os:Windows,os_version:XP,browser:Chrome,browser_version:48.0
+
+nb_Repeat:8,duration:22,os:Windows,os_version:XP,browser:Firefox,browser_version:47.0
+
+nb_Repeat:8,duration:22,os:Windows,os_version:XP,browser:Firefox,browser_version:47.0
+
+nb_Repeat:8,duration:22,os:Windows,os_version:XP,browser:IE,browser_version:7.0
+
+nb_Repeat:8,duration:10,os:Windows,os_version:XP,browser:IE,browser_version:6.0
+
+
+nb_Repeat:8,duration:23,os:OS X,os_version:High Sierra,browser:Safari,browser_version:11.0
+
+nb_Repeat:8,duration:22,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:66.0
+
+nb_Repeat:8,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:65.0
+
+nb_Repeat:8,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:64.0
+
+nb_Repeat:8,duration:22,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:63.0
+
+nb_Repeat:8,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:60.0 beta
+
+nb_Repeat:8,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:59.0
+
+nb_Repeat:8,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:58.0
+
+nb_Repeat:8,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:57.0
+
+nb_Repeat:8,duration:22,os:OS X,os_version:Sierra,browser:Safari,browser_version:10.0
+
+nb_Repeat:8,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:66.0
+
+nb_Repeat:8,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:65.0
+
+nb_Repeat:8,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:64.0
+
+nb_Repeat:8,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:63.0
+
+nb_Repeat:8,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:60.0 beta
+
+nb_Repeat:8,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:59.0
+
+nb_Repeat:8,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:58.0
+
+nb_Repeat:8,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:57.0
+
+nb_Repeat:8,duration:23,os:OS X,os_version:El Capitan,browser:Safari,browser_version:9.1
+
+nb_Repeat:8,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:66.0
+
+nb_Repeat:8,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:65.0
+
+nb_Repeat:8,duration:24,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:64.0
+
+nb_Repeat:8,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:63.0
+
+nb_Repeat:8,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:60.0 beta
+
+nb_Repeat:8,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:59.0
+
+nb_Repeat:8,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:58.0
+
+nb_Repeat:8,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:57.0
+
+nb_Repeat:8,duration:23,os:OS X,os_version:Yosemite,browser:Safari,browser_version:8.0
+
+nb_Repeat:8,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:66.0
+
+nb_Repeat:8,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:65.0
+
+nb_Repeat:8,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:64.0
+
+nb_Repeat:8,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:63.0
+
+nb_Repeat:8,duration:24,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:60.0 beta
+
+nb_Repeat:8,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:59.0
+
+nb_Repeat:8,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:58.0
+
+nb_Repeat:8,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:57.0
+
+nb_Repeat:9,duration:24,os:Windows,os_version:10,browser:Chrome,browser_version:66.0
+
+nb_Repeat:9,duration:24,os:Windows,os_version:10,browser:Chrome,browser_version:65.0
+
+nb_Repeat:9,duration:22,os:Windows,os_version:10,browser:Chrome,browser_version:64.0
+
+nb_Repeat:9,duration:25,os:Windows,os_version:10,browser:Chrome,browser_version:63.0
+
+nb_Repeat:9,duration:24,os:Windows,os_version:10,browser:Chrome,browser_version:62.0
+
+nb_Repeat:9,duration:26,os:Windows,os_version:10,browser:Chrome,browser_version:61.0
+
+nb_Repeat:9,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:60.0
+
+nb_Repeat:9,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:60.0 beta
+
+nb_Repeat:9,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:59.0
+
+nb_Repeat:9,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:58.0
+
+nb_Repeat:9,duration:22,os:Windows,os_version:10,browser:Firefox,browser_version:57.0
+
+nb_Repeat:9,duration:23,os:Windows,os_version:10,browser:IE,browser_version:11.0
+
+
+nb_Repeat:9,duration:24,os:Windows,os_version:8.1,browser:Chrome,browser_version:66.0
+
+nb_Repeat:9,duration:22,os:Windows,os_version:8.1,browser:Chrome,browser_version:65.0
+
+nb_Repeat:9,duration:22,os:Windows,os_version:8.1,browser:Chrome,browser_version:64.0
+
+nb_Repeat:9,duration:22,os:Windows,os_version:8.1,browser:Chrome,browser_version:63.0
+
+nb_Repeat:9,duration:22,os:Windows,os_version:8.1,browser:Chrome,browser_version:62.0
+
+nb_Repeat:9,duration:25,os:Windows,os_version:8.1,browser:Chrome,browser_version:61.0
+
+nb_Repeat:9,duration:23,os:Windows,os_version:8.1,browser:Chrome,browser_version:60.0
+
+nb_Repeat:9,duration:23,os:Windows,os_version:8.1,browser:Firefox,browser_version:60.0 beta
+
+nb_Repeat:9,duration:23,os:Windows,os_version:8.1,browser:Firefox,browser_version:59.0
+
+nb_Repeat:9,duration:22,os:Windows,os_version:8.1,browser:Firefox,browser_version:58.0
+
+nb_Repeat:9,duration:23,os:Windows,os_version:8.1,browser:Firefox,browser_version:57.0
+
+nb_Repeat:9,duration:23,os:Windows,os_version:8.1,browser:IE,browser_version:11.0
+
+
+nb_Repeat:9,duration:24,os:Windows,os_version:7,browser:Chrome,browser_version:66.0
+
+nb_Repeat:9,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:65.0
+
+nb_Repeat:9,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:64.0
+
+nb_Repeat:9,duration:25,os:Windows,os_version:7,browser:Chrome,browser_version:63.0
+
+nb_Repeat:9,duration:24,os:Windows,os_version:7,browser:Chrome,browser_version:62.0
+
+nb_Repeat:9,duration:23,os:Windows,os_version:7,browser:Chrome,browser_version:61.0
+
+nb_Repeat:9,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:60.0
+
+nb_Repeat:9,duration:23,os:Windows,os_version:7,browser:Firefox,browser_version:60.0 beta
+
+nb_Repeat:9,duration:22,os:Windows,os_version:7,browser:Firefox,browser_version:59.0
+
+nb_Repeat:9,duration:22,os:Windows,os_version:7,browser:Firefox,browser_version:58.0
+
+nb_Repeat:9,duration:23,os:Windows,os_version:7,browser:Firefox,browser_version:57.0
+
+nb_Repeat:9,duration:23,os:Windows,os_version:7,browser:IE,browser_version:11.0
+
+nb_Repeat:9,duration:36,os:Windows,os_version:7,browser:IE,browser_version:10.0
+
+
+
+
+nb_Repeat:9,duration:22,os:Windows,os_version:XP,browser:Chrome,browser_version:49.0
+
+nb_Repeat:9,duration:23,os:Windows,os_version:XP,browser:Chrome,browser_version:48.0
+
+nb_Repeat:9,duration:22,os:Windows,os_version:XP,browser:Firefox,browser_version:47.0
+
+nb_Repeat:9,duration:22,os:Windows,os_version:XP,browser:Firefox,browser_version:47.0
+
+nb_Repeat:9,duration:5,os:Windows,os_version:XP,browser:IE,browser_version:7.0
+
+nb_Repeat:9,duration:10,os:Windows,os_version:XP,browser:IE,browser_version:6.0
+
+
+nb_Repeat:9,duration:23,os:OS X,os_version:High Sierra,browser:Safari,browser_version:11.0
+
+nb_Repeat:9,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:66.0
+
+nb_Repeat:9,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:65.0
+
+nb_Repeat:9,duration:22,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:64.0
+
+nb_Repeat:9,duration:25,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:63.0
+
+nb_Repeat:9,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:60.0 beta
+
+nb_Repeat:9,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:59.0
+
+nb_Repeat:9,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:58.0
+
+nb_Repeat:9,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:57.0
+
+nb_Repeat:9,duration:22,os:OS X,os_version:Sierra,browser:Safari,browser_version:10.0
+
+nb_Repeat:9,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:66.0
+
+nb_Repeat:9,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:65.0
+
+nb_Repeat:9,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:64.0
+
+nb_Repeat:9,duration:24,os:OS X,os_version:Sierra,browser:Chrome,browser_version:63.0
+
+nb_Repeat:9,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:60.0 beta
+
+nb_Repeat:9,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:59.0
+
+nb_Repeat:9,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:58.0
+
+nb_Repeat:9,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:57.0
+
+nb_Repeat:9,duration:22,os:OS X,os_version:El Capitan,browser:Safari,browser_version:9.1
+
+nb_Repeat:9,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:66.0
+
+nb_Repeat:9,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:65.0
+
+nb_Repeat:9,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:64.0
+
+nb_Repeat:9,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:63.0
+
+nb_Repeat:9,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:60.0 beta
+
+nb_Repeat:9,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:59.0
+
+nb_Repeat:9,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:58.0
+
+nb_Repeat:9,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:57.0
+
+nb_Repeat:9,duration:22,os:OS X,os_version:Yosemite,browser:Safari,browser_version:8.0
+
+nb_Repeat:9,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:66.0
+
+nb_Repeat:9,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:65.0
+
+nb_Repeat:9,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:64.0
+
+nb_Repeat:9,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:63.0
+
+nb_Repeat:9,duration:24,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:60.0 beta
+
+nb_Repeat:9,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:59.0
+
+nb_Repeat:9,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:58.0
+
+nb_Repeat:9,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:57.0
+
+nb_Repeat:10,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:66.0
+
+nb_Repeat:10,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:65.0
+
+nb_Repeat:10,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:64.0
+
+nb_Repeat:10,duration:22,os:Windows,os_version:10,browser:Chrome,browser_version:63.0
+
+nb_Repeat:10,duration:25,os:Windows,os_version:10,browser:Chrome,browser_version:62.0
+
+nb_Repeat:10,duration:24,os:Windows,os_version:10,browser:Chrome,browser_version:61.0
+
+nb_Repeat:10,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:60.0
+
+nb_Repeat:10,duration:24,os:Windows,os_version:10,browser:Firefox,browser_version:60.0 beta
+
+nb_Repeat:10,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:59.0
+
+nb_Repeat:10,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:58.0
+
+nb_Repeat:10,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:57.0
+
+nb_Repeat:10,duration:22,os:Windows,os_version:10,browser:IE,browser_version:11.0
+
+
+nb_Repeat:10,duration:23,os:Windows,os_version:8.1,browser:Chrome,browser_version:66.0
+
+nb_Repeat:10,duration:25,os:Windows,os_version:8.1,browser:Chrome,browser_version:65.0
+
+nb_Repeat:10,duration:24,os:Windows,os_version:8.1,browser:Chrome,browser_version:64.0
+
+nb_Repeat:10,duration:24,os:Windows,os_version:8.1,browser:Chrome,browser_version:63.0
+
+nb_Repeat:10,duration:25,os:Windows,os_version:8.1,browser:Chrome,browser_version:62.0
+
+nb_Repeat:10,duration:26,os:Windows,os_version:8.1,browser:Chrome,browser_version:61.0
+
+nb_Repeat:10,duration:23,os:Windows,os_version:8.1,browser:Chrome,browser_version:60.0
+
+nb_Repeat:10,duration:23,os:Windows,os_version:8.1,browser:Firefox,browser_version:60.0 beta
+
+nb_Repeat:10,duration:23,os:Windows,os_version:8.1,browser:Firefox,browser_version:59.0
+
+nb_Repeat:10,duration:23,os:Windows,os_version:8.1,browser:Firefox,browser_version:58.0
+
+nb_Repeat:10,duration:23,os:Windows,os_version:8.1,browser:Firefox,browser_version:57.0
+
+nb_Repeat:10,duration:24,os:Windows,os_version:8.1,browser:IE,browser_version:11.0
+
+
+nb_Repeat:10,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:66.0
+
+nb_Repeat:10,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:65.0
+
+nb_Repeat:10,duration:23,os:Windows,os_version:7,browser:Chrome,browser_version:64.0
+
+nb_Repeat:10,duration:23,os:Windows,os_version:7,browser:Chrome,browser_version:63.0
+
+nb_Repeat:10,duration:24,os:Windows,os_version:7,browser:Chrome,browser_version:62.0
+
+nb_Repeat:10,duration:25,os:Windows,os_version:7,browser:Chrome,browser_version:61.0
+
+nb_Repeat:10,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:60.0
+
+nb_Repeat:10,duration:23,os:Windows,os_version:7,browser:Firefox,browser_version:60.0 beta
+
+nb_Repeat:10,duration:23,os:Windows,os_version:7,browser:Firefox,browser_version:59.0
+
+nb_Repeat:10,duration:22,os:Windows,os_version:7,browser:Firefox,browser_version:58.0
+
+nb_Repeat:10,duration:22,os:Windows,os_version:7,browser:Firefox,browser_version:57.0
+
+nb_Repeat:10,duration:34,os:Windows,os_version:7,browser:IE,browser_version:11.0
+
+nb_Repeat:10,duration:30,os:Windows,os_version:7,browser:IE,browser_version:10.0
+
+
+
+
+nb_Repeat:10,duration:25,os:Windows,os_version:XP,browser:Chrome,browser_version:49.0
+
+nb_Repeat:10,duration:22,os:Windows,os_version:XP,browser:Chrome,browser_version:48.0
+
+nb_Repeat:10,duration:23,os:Windows,os_version:XP,browser:Firefox,browser_version:47.0
+
+nb_Repeat:10,duration:23,os:Windows,os_version:XP,browser:Firefox,browser_version:47.0
+
+nb_Repeat:10,duration:4,os:Windows,os_version:XP,browser:IE,browser_version:7.0
+
+nb_Repeat:10,duration:11,os:Windows,os_version:XP,browser:IE,browser_version:6.0
+
+
+nb_Repeat:10,duration:22,os:OS X,os_version:High Sierra,browser:Safari,browser_version:11.0
+
+nb_Repeat:10,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:66.0
+
+nb_Repeat:10,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:65.0
+
+nb_Repeat:10,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:64.0
+
+nb_Repeat:10,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:63.0
+
+nb_Repeat:10,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:60.0 beta
+
+nb_Repeat:10,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:59.0
+
+nb_Repeat:10,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:58.0
+
+nb_Repeat:10,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:57.0
+
+nb_Repeat:10,duration:22,os:OS X,os_version:Sierra,browser:Safari,browser_version:10.0
+
+nb_Repeat:10,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:66.0
+
+nb_Repeat:10,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:65.0
+
+nb_Repeat:10,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:64.0
+
+nb_Repeat:10,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:63.0
+
+nb_Repeat:10,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:60.0 beta
+
+nb_Repeat:10,duration:24,os:OS X,os_version:Sierra,browser:Chrome,browser_version:59.0
+
+nb_Repeat:10,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:58.0
+
+nb_Repeat:10,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:57.0
+
+nb_Repeat:10,duration:22,os:OS X,os_version:El Capitan,browser:Safari,browser_version:9.1
+
+nb_Repeat:10,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:66.0
+
+nb_Repeat:10,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:65.0
+
+nb_Repeat:10,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:64.0
+
+nb_Repeat:10,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:63.0
+
+nb_Repeat:10,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:60.0 beta
+
+nb_Repeat:10,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:59.0
+
+nb_Repeat:10,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:58.0
+
+nb_Repeat:10,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:57.0
+
+nb_Repeat:10,duration:23,os:OS X,os_version:Yosemite,browser:Safari,browser_version:8.0
+
+nb_Repeat:10,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:66.0
+
+nb_Repeat:10,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:65.0
+
+nb_Repeat:10,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:64.0
+
+nb_Repeat:10,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:63.0
+
+nb_Repeat:10,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:60.0 beta
+
+nb_Repeat:10,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:59.0
+
+nb_Repeat:10,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:58.0
+
+nb_Repeat:10,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:57.0
+

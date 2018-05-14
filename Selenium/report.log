@@ -1,0 +1,785 @@
+nb_Repeat:1,duration:24,os:Windows,os_version:10,browser:Chrome,browser_version:66.0
+nb_Repeat:1,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:65.0
+nb_Repeat:1,duration:22,os:Windows,os_version:10,browser:Chrome,browser_version:64.0
+nb_Repeat:1,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:63.0
+nb_Repeat:1,duration:24,os:Windows,os_version:10,browser:Chrome,browser_version:62.0
+nb_Repeat:1,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:61.0
+nb_Repeat:1,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:60.0
+nb_Repeat:1,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:60.0 beta
+nb_Repeat:1,duration:22,os:Windows,os_version:10,browser:Firefox,browser_version:59.0
+nb_Repeat:1,duration:25,os:Windows,os_version:10,browser:Firefox,browser_version:58.0
+nb_Repeat:1,duration:24,os:Windows,os_version:10,browser:Firefox,browser_version:57.0
+nb_Repeat:1,duration:22,os:Windows,os_version:10,browser:IE,browser_version:11.0
+nb_Repeat:1,duration:23,os:Windows,os_version:8.1,browser:Chrome,browser_version:66.0
+nb_Repeat:1,duration:23,os:Windows,os_version:8.1,browser:Chrome,browser_version:65.0
+nb_Repeat:1,duration:25,os:Windows,os_version:8.1,browser:Chrome,browser_version:64.0
+nb_Repeat:1,duration:24,os:Windows,os_version:8.1,browser:Chrome,browser_version:63.0
+nb_Repeat:1,duration:23,os:Windows,os_version:8.1,browser:Chrome,browser_version:62.0
+nb_Repeat:1,duration:26,os:Windows,os_version:8.1,browser:Chrome,browser_version:61.0
+nb_Repeat:1,duration:22,os:Windows,os_version:8.1,browser:Chrome,browser_version:60.0
+nb_Repeat:1,duration:23,os:Windows,os_version:8.1,browser:Firefox,browser_version:60.0 beta
+nb_Repeat:1,duration:22,os:Windows,os_version:8.1,browser:Firefox,browser_version:59.0
+nb_Repeat:1,duration:23,os:Windows,os_version:8.1,browser:Firefox,browser_version:58.0
+nb_Repeat:1,duration:22,os:Windows,os_version:8.1,browser:Firefox,browser_version:57.0
+nb_Repeat:1,duration:23,os:Windows,os_version:8.1,browser:IE,browser_version:11.0
+nb_Repeat:1,duration:23,os:Windows,os_version:7,browser:Chrome,browser_version:66.0
+nb_Repeat:1,duration:23,os:Windows,os_version:7,browser:Chrome,browser_version:65.0
+nb_Repeat:1,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:64.0
+nb_Repeat:1,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:63.0
+nb_Repeat:1,duration:24,os:Windows,os_version:7,browser:Chrome,browser_version:62.0
+nb_Repeat:1,duration:23,os:Windows,os_version:7,browser:Chrome,browser_version:61.0
+nb_Repeat:1,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:60.0
+nb_Repeat:1,duration:23,os:Windows,os_version:7,browser:Firefox,browser_version:60.0 beta
+nb_Repeat:1,duration:23,os:Windows,os_version:7,browser:Firefox,browser_version:59.0
+nb_Repeat:1,duration:23,os:Windows,os_version:7,browser:Firefox,browser_version:58.0
+nb_Repeat:1,duration:22,os:Windows,os_version:7,browser:Firefox,browser_version:57.0
+nb_Repeat:1,duration:33,os:Windows,os_version:7,browser:IE,browser_version:11.0
+nb_Repeat:1,duration:55,os:Windows,os_version:7,browser:IE,browser_version:10.0
+nb_Repeat:1,duration:23,os:Windows,os_version:XP,browser:Chrome,browser_version:49.0
+nb_Repeat:1,duration:22,os:Windows,os_version:XP,browser:Chrome,browser_version:48.0
+nb_Repeat:1,duration:22,os:Windows,os_version:XP,browser:Firefox,browser_version:47.0
+nb_Repeat:1,duration:22,os:Windows,os_version:XP,browser:Firefox,browser_version:47.0
+nb_Repeat:1,duration:4,os:Windows,os_version:XP,browser:IE,browser_version:7.0
+nb_Repeat:1,duration:10,os:Windows,os_version:XP,browser:IE,browser_version:6.0
+nb_Repeat:1,duration:24,os:OS X,os_version:High Sierra,browser:Safari,browser_version:11.0
+nb_Repeat:1,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:66.0
+nb_Repeat:1,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:65.0
+nb_Repeat:1,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:64.0
+nb_Repeat:1,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:63.0
+nb_Repeat:1,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:60.0 beta
+nb_Repeat:1,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:59.0
+nb_Repeat:1,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:58.0
+nb_Repeat:1,duration:26,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:57.0
+nb_Repeat:1,duration:22,os:OS X,os_version:Sierra,browser:Safari,browser_version:10.0
+nb_Repeat:1,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:66.0
+nb_Repeat:1,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:65.0
+nb_Repeat:1,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:64.0
+nb_Repeat:1,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:63.0
+nb_Repeat:1,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:60.0 beta
+nb_Repeat:1,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:59.0
+nb_Repeat:1,duration:25,os:OS X,os_version:Sierra,browser:Chrome,browser_version:58.0
+nb_Repeat:1,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:57.0
+nb_Repeat:1,duration:22,os:OS X,os_version:El Capitan,browser:Safari,browser_version:9.1
+nb_Repeat:1,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:66.0
+nb_Repeat:1,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:65.0
+nb_Repeat:1,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:64.0
+nb_Repeat:1,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:63.0
+nb_Repeat:1,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:60.0 beta
+nb_Repeat:1,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:59.0
+nb_Repeat:1,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:58.0
+nb_Repeat:1,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:57.0
+nb_Repeat:1,duration:22,os:OS X,os_version:Yosemite,browser:Safari,browser_version:8.0
+nb_Repeat:1,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:66.0
+nb_Repeat:1,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:65.0
+nb_Repeat:1,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:64.0
+nb_Repeat:1,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:63.0
+nb_Repeat:1,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:60.0 beta
+nb_Repeat:1,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:59.0
+nb_Repeat:1,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:58.0
+nb_Repeat:1,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:57.0
+nb_Repeat:2,duration:24,os:Windows,os_version:10,browser:Chrome,browser_version:66.0
+nb_Repeat:2,duration:22,os:Windows,os_version:10,browser:Chrome,browser_version:65.0
+nb_Repeat:2,duration:22,os:Windows,os_version:10,browser:Chrome,browser_version:64.0
+nb_Repeat:2,duration:22,os:Windows,os_version:10,browser:Chrome,browser_version:63.0
+nb_Repeat:2,duration:24,os:Windows,os_version:10,browser:Chrome,browser_version:62.0
+nb_Repeat:2,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:61.0
+nb_Repeat:2,duration:24,os:Windows,os_version:10,browser:Chrome,browser_version:60.0
+nb_Repeat:2,duration:24,os:Windows,os_version:10,browser:Firefox,browser_version:60.0 beta
+nb_Repeat:2,duration:24,os:Windows,os_version:10,browser:Firefox,browser_version:59.0
+nb_Repeat:2,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:58.0
+nb_Repeat:2,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:57.0
+nb_Repeat:2,duration:23,os:Windows,os_version:10,browser:IE,browser_version:11.0
+nb_Repeat:2,duration:22,os:Windows,os_version:8.1,browser:Chrome,browser_version:66.0
+nb_Repeat:2,duration:24,os:Windows,os_version:8.1,browser:Chrome,browser_version:65.0
+nb_Repeat:2,duration:22,os:Windows,os_version:8.1,browser:Chrome,browser_version:64.0
+nb_Repeat:2,duration:25,os:Windows,os_version:8.1,browser:Chrome,browser_version:63.0
+nb_Repeat:2,duration:22,os:Windows,os_version:8.1,browser:Chrome,browser_version:62.0
+nb_Repeat:2,duration:24,os:Windows,os_version:8.1,browser:Chrome,browser_version:61.0
+nb_Repeat:2,duration:23,os:Windows,os_version:8.1,browser:Chrome,browser_version:60.0
+nb_Repeat:2,duration:23,os:Windows,os_version:8.1,browser:Firefox,browser_version:60.0 beta
+nb_Repeat:2,duration:23,os:Windows,os_version:8.1,browser:Firefox,browser_version:59.0
+nb_Repeat:2,duration:22,os:Windows,os_version:8.1,browser:Firefox,browser_version:58.0
+nb_Repeat:2,duration:23,os:Windows,os_version:8.1,browser:Firefox,browser_version:57.0
+nb_Repeat:2,duration:26,os:Windows,os_version:8.1,browser:IE,browser_version:11.0
+nb_Repeat:2,duration:24,os:Windows,os_version:7,browser:Chrome,browser_version:66.0
+nb_Repeat:2,duration:23,os:Windows,os_version:7,browser:Chrome,browser_version:65.0
+nb_Repeat:2,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:64.0
+nb_Repeat:2,duration:23,os:Windows,os_version:7,browser:Chrome,browser_version:63.0
+nb_Repeat:2,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:62.0
+nb_Repeat:2,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:61.0
+nb_Repeat:2,duration:24,os:Windows,os_version:7,browser:Chrome,browser_version:60.0
+nb_Repeat:2,duration:26,os:Windows,os_version:7,browser:Firefox,browser_version:60.0 beta
+nb_Repeat:2,duration:22,os:Windows,os_version:7,browser:Firefox,browser_version:59.0
+nb_Repeat:2,duration:22,os:Windows,os_version:7,browser:Firefox,browser_version:58.0
+nb_Repeat:2,duration:23,os:Windows,os_version:7,browser:Firefox,browser_version:57.0
+nb_Repeat:2,duration:34,os:Windows,os_version:7,browser:IE,browser_version:11.0
+nb_Repeat:2,duration:42,os:Windows,os_version:7,browser:IE,browser_version:10.0
+nb_Repeat:2,duration:22,os:Windows,os_version:XP,browser:Chrome,browser_version:49.0
+nb_Repeat:2,duration:23,os:Windows,os_version:XP,browser:Chrome,browser_version:48.0
+nb_Repeat:2,duration:23,os:Windows,os_version:XP,browser:Firefox,browser_version:47.0
+nb_Repeat:2,duration:22,os:Windows,os_version:XP,browser:Firefox,browser_version:47.0
+nb_Repeat:2,duration:5,os:Windows,os_version:XP,browser:IE,browser_version:7.0
+nb_Repeat:2,duration:23,os:OS X,os_version:High Sierra,browser:Safari,browser_version:11.0
+nb_Repeat:2,duration:22,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:66.0
+nb_Repeat:2,duration:22,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:65.0
+nb_Repeat:2,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:64.0
+nb_Repeat:2,duration:25,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:63.0
+nb_Repeat:2,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:60.0 beta
+nb_Repeat:2,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:59.0
+nb_Repeat:2,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:58.0
+nb_Repeat:2,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:57.0
+nb_Repeat:2,duration:23,os:OS X,os_version:Sierra,browser:Safari,browser_version:10.0
+nb_Repeat:2,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:66.0
+nb_Repeat:2,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:65.0
+nb_Repeat:2,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:64.0
+nb_Repeat:2,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:63.0
+nb_Repeat:2,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:60.0 beta
+nb_Repeat:2,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:59.0
+nb_Repeat:2,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:58.0
+nb_Repeat:2,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:57.0
+nb_Repeat:2,duration:23,os:OS X,os_version:El Capitan,browser:Safari,browser_version:9.1
+nb_Repeat:2,duration:24,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:66.0
+nb_Repeat:2,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:65.0
+nb_Repeat:2,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:64.0
+nb_Repeat:2,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:63.0
+nb_Repeat:2,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:60.0 beta
+nb_Repeat:2,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:59.0
+nb_Repeat:2,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:58.0
+nb_Repeat:2,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:57.0
+nb_Repeat:2,duration:22,os:OS X,os_version:Yosemite,browser:Safari,browser_version:8.0
+nb_Repeat:2,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:66.0
+nb_Repeat:2,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:65.0
+nb_Repeat:2,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:64.0
+nb_Repeat:2,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:63.0
+nb_Repeat:2,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:60.0 beta
+nb_Repeat:2,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:59.0
+nb_Repeat:2,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:58.0
+nb_Repeat:2,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:57.0
+nb_Repeat:3,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:66.0
+nb_Repeat:3,duration:22,os:Windows,os_version:10,browser:Chrome,browser_version:65.0
+nb_Repeat:3,duration:24,os:Windows,os_version:10,browser:Chrome,browser_version:64.0
+nb_Repeat:3,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:63.0
+nb_Repeat:3,duration:22,os:Windows,os_version:10,browser:Chrome,browser_version:62.0
+nb_Repeat:3,duration:24,os:Windows,os_version:10,browser:Chrome,browser_version:61.0
+nb_Repeat:3,duration:24,os:Windows,os_version:10,browser:Chrome,browser_version:60.0
+nb_Repeat:3,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:60.0 beta
+nb_Repeat:3,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:59.0
+nb_Repeat:3,duration:22,os:Windows,os_version:10,browser:Firefox,browser_version:58.0
+nb_Repeat:3,duration:22,os:Windows,os_version:10,browser:Firefox,browser_version:57.0
+nb_Repeat:3,duration:23,os:Windows,os_version:10,browser:IE,browser_version:11.0
+nb_Repeat:3,duration:24,os:Windows,os_version:8.1,browser:Chrome,browser_version:66.0
+nb_Repeat:3,duration:22,os:Windows,os_version:8.1,browser:Chrome,browser_version:65.0
+nb_Repeat:3,duration:22,os:Windows,os_version:8.1,browser:Chrome,browser_version:64.0
+nb_Repeat:3,duration:22,os:Windows,os_version:8.1,browser:Chrome,browser_version:63.0
+nb_Repeat:3,duration:24,os:Windows,os_version:8.1,browser:Chrome,browser_version:62.0
+nb_Repeat:3,duration:22,os:Windows,os_version:8.1,browser:Chrome,browser_version:61.0
+nb_Repeat:3,duration:22,os:Windows,os_version:8.1,browser:Chrome,browser_version:60.0
+nb_Repeat:3,duration:22,os:Windows,os_version:8.1,browser:Firefox,browser_version:60.0 beta
+nb_Repeat:3,duration:22,os:Windows,os_version:8.1,browser:Firefox,browser_version:59.0
+nb_Repeat:3,duration:22,os:Windows,os_version:8.1,browser:Firefox,browser_version:58.0
+nb_Repeat:3,duration:22,os:Windows,os_version:8.1,browser:Firefox,browser_version:57.0
+nb_Repeat:3,duration:23,os:Windows,os_version:8.1,browser:IE,browser_version:11.0
+nb_Repeat:3,duration:24,os:Windows,os_version:7,browser:Chrome,browser_version:66.0
+nb_Repeat:3,duration:23,os:Windows,os_version:7,browser:Chrome,browser_version:65.0
+nb_Repeat:3,duration:24,os:Windows,os_version:7,browser:Chrome,browser_version:64.0
+nb_Repeat:3,duration:27,os:Windows,os_version:7,browser:Chrome,browser_version:63.0
+nb_Repeat:3,duration:23,os:Windows,os_version:7,browser:Chrome,browser_version:62.0
+nb_Repeat:3,duration:24,os:Windows,os_version:7,browser:Chrome,browser_version:61.0
+nb_Repeat:3,duration:25,os:Windows,os_version:7,browser:Chrome,browser_version:60.0
+nb_Repeat:3,duration:22,os:Windows,os_version:7,browser:Firefox,browser_version:60.0 beta
+nb_Repeat:3,duration:23,os:Windows,os_version:7,browser:Firefox,browser_version:59.0
+nb_Repeat:3,duration:23,os:Windows,os_version:7,browser:Firefox,browser_version:58.0
+nb_Repeat:3,duration:22,os:Windows,os_version:7,browser:Firefox,browser_version:57.0
+nb_Repeat:3,duration:23,os:Windows,os_version:7,browser:IE,browser_version:11.0
+nb_Repeat:3,duration:37,os:Windows,os_version:7,browser:IE,browser_version:10.0
+nb_Repeat:3,duration:23,os:Windows,os_version:XP,browser:Chrome,browser_version:49.0
+nb_Repeat:3,duration:23,os:Windows,os_version:XP,browser:Chrome,browser_version:48.0
+nb_Repeat:3,duration:22,os:Windows,os_version:XP,browser:Firefox,browser_version:47.0
+nb_Repeat:3,duration:23,os:Windows,os_version:XP,browser:Firefox,browser_version:47.0
+nb_Repeat:3,duration:5,os:Windows,os_version:XP,browser:IE,browser_version:7.0
+nb_Repeat:3,duration:9,os:Windows,os_version:XP,browser:IE,browser_version:6.0
+nb_Repeat:3,duration:23,os:OS X,os_version:High Sierra,browser:Safari,browser_version:11.0
+nb_Repeat:3,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:66.0
+nb_Repeat:3,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:65.0
+nb_Repeat:3,duration:22,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:64.0
+nb_Repeat:3,duration:27,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:63.0
+nb_Repeat:3,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:60.0 beta
+nb_Repeat:3,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:59.0
+nb_Repeat:3,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:58.0
+nb_Repeat:3,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:57.0
+nb_Repeat:3,duration:22,os:OS X,os_version:Sierra,browser:Safari,browser_version:10.0
+nb_Repeat:3,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:66.0
+nb_Repeat:3,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:65.0
+nb_Repeat:3,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:64.0
+nb_Repeat:3,duration:24,os:OS X,os_version:Sierra,browser:Chrome,browser_version:63.0
+nb_Repeat:3,duration:24,os:OS X,os_version:Sierra,browser:Chrome,browser_version:60.0 beta
+nb_Repeat:3,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:59.0
+nb_Repeat:3,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:58.0
+nb_Repeat:3,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:57.0
+nb_Repeat:3,duration:22,os:OS X,os_version:El Capitan,browser:Safari,browser_version:9.1
+nb_Repeat:3,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:66.0
+nb_Repeat:3,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:65.0
+nb_Repeat:3,duration:24,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:64.0
+nb_Repeat:3,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:63.0
+nb_Repeat:3,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:60.0 beta
+nb_Repeat:3,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:59.0
+nb_Repeat:3,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:58.0
+nb_Repeat:3,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:57.0
+nb_Repeat:3,duration:22,os:OS X,os_version:Yosemite,browser:Safari,browser_version:8.0
+nb_Repeat:3,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:66.0
+nb_Repeat:3,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:65.0
+nb_Repeat:3,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:64.0
+nb_Repeat:3,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:63.0
+nb_Repeat:3,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:60.0 beta
+nb_Repeat:3,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:59.0
+nb_Repeat:3,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:58.0
+nb_Repeat:3,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:57.0
+nb_Repeat:4,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:66.0
+nb_Repeat:4,duration:22,os:Windows,os_version:10,browser:Chrome,browser_version:65.0
+nb_Repeat:4,duration:22,os:Windows,os_version:10,browser:Chrome,browser_version:64.0
+nb_Repeat:4,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:63.0
+nb_Repeat:4,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:62.0
+nb_Repeat:4,duration:22,os:Windows,os_version:10,browser:Chrome,browser_version:61.0
+nb_Repeat:4,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:60.0
+nb_Repeat:4,duration:22,os:Windows,os_version:10,browser:Firefox,browser_version:60.0 beta
+nb_Repeat:4,duration:22,os:Windows,os_version:10,browser:Firefox,browser_version:59.0
+nb_Repeat:4,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:58.0
+nb_Repeat:4,duration:22,os:Windows,os_version:10,browser:Firefox,browser_version:57.0
+nb_Repeat:4,duration:23,os:Windows,os_version:10,browser:IE,browser_version:11.0
+nb_Repeat:4,duration:22,os:Windows,os_version:8.1,browser:Chrome,browser_version:66.0
+nb_Repeat:4,duration:23,os:Windows,os_version:8.1,browser:Chrome,browser_version:65.0
+nb_Repeat:4,duration:22,os:Windows,os_version:8.1,browser:Chrome,browser_version:64.0
+nb_Repeat:4,duration:22,os:Windows,os_version:8.1,browser:Chrome,browser_version:63.0
+nb_Repeat:4,duration:23,os:Windows,os_version:8.1,browser:Chrome,browser_version:62.0
+nb_Repeat:4,duration:22,os:Windows,os_version:8.1,browser:Chrome,browser_version:61.0
+nb_Repeat:4,duration:22,os:Windows,os_version:8.1,browser:Chrome,browser_version:60.0
+nb_Repeat:4,duration:22,os:Windows,os_version:8.1,browser:Firefox,browser_version:60.0 beta
+nb_Repeat:4,duration:23,os:Windows,os_version:8.1,browser:Firefox,browser_version:59.0
+nb_Repeat:4,duration:23,os:Windows,os_version:8.1,browser:Firefox,browser_version:58.0
+nb_Repeat:4,duration:23,os:Windows,os_version:8.1,browser:Firefox,browser_version:57.0
+nb_Repeat:4,duration:22,os:Windows,os_version:8.1,browser:IE,browser_version:11.0
+nb_Repeat:4,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:66.0
+nb_Repeat:4,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:65.0
+nb_Repeat:4,duration:24,os:Windows,os_version:7,browser:Chrome,browser_version:64.0
+nb_Repeat:4,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:63.0
+nb_Repeat:4,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:62.0
+nb_Repeat:4,duration:23,os:Windows,os_version:7,browser:Chrome,browser_version:61.0
+nb_Repeat:4,duration:23,os:Windows,os_version:7,browser:Chrome,browser_version:60.0
+nb_Repeat:4,duration:22,os:Windows,os_version:7,browser:Firefox,browser_version:60.0 beta
+nb_Repeat:4,duration:23,os:Windows,os_version:7,browser:Firefox,browser_version:59.0
+nb_Repeat:4,duration:23,os:Windows,os_version:7,browser:Firefox,browser_version:58.0
+nb_Repeat:4,duration:23,os:Windows,os_version:7,browser:Firefox,browser_version:57.0
+nb_Repeat:4,duration:34,os:Windows,os_version:7,browser:IE,browser_version:11.0
+nb_Repeat:4,duration:35,os:Windows,os_version:7,browser:IE,browser_version:10.0
+nb_Repeat:4,duration:24,os:Windows,os_version:XP,browser:Chrome,browser_version:49.0
+nb_Repeat:4,duration:23,os:Windows,os_version:XP,browser:Chrome,browser_version:48.0
+nb_Repeat:4,duration:23,os:Windows,os_version:XP,browser:Firefox,browser_version:47.0
+nb_Repeat:4,duration:23,os:Windows,os_version:XP,browser:Firefox,browser_version:47.0
+nb_Repeat:4,duration:5,os:Windows,os_version:XP,browser:IE,browser_version:7.0
+nb_Repeat:4,duration:22,os:OS X,os_version:High Sierra,browser:Safari,browser_version:11.0
+nb_Repeat:4,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:66.0
+nb_Repeat:4,duration:22,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:65.0
+nb_Repeat:4,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:64.0
+nb_Repeat:4,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:63.0
+nb_Repeat:4,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:60.0 beta
+nb_Repeat:4,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:59.0
+nb_Repeat:4,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:58.0
+nb_Repeat:4,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:57.0
+nb_Repeat:4,duration:21,os:OS X,os_version:Sierra,browser:Safari,browser_version:10.0
+nb_Repeat:4,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:66.0
+nb_Repeat:4,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:65.0
+nb_Repeat:4,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:64.0
+nb_Repeat:4,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:63.0
+nb_Repeat:4,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:60.0 beta
+nb_Repeat:4,duration:24,os:OS X,os_version:Sierra,browser:Chrome,browser_version:59.0
+nb_Repeat:4,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:58.0
+nb_Repeat:4,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:57.0
+nb_Repeat:4,duration:23,os:OS X,os_version:El Capitan,browser:Safari,browser_version:9.1
+nb_Repeat:4,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:66.0
+nb_Repeat:4,duration:25,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:65.0
+nb_Repeat:4,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:64.0
+nb_Repeat:4,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:63.0
+nb_Repeat:4,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:60.0 beta
+nb_Repeat:4,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:59.0
+nb_Repeat:4,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:58.0
+nb_Repeat:4,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:57.0
+nb_Repeat:4,duration:23,os:OS X,os_version:Yosemite,browser:Safari,browser_version:8.0
+nb_Repeat:4,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:66.0
+nb_Repeat:4,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:65.0
+nb_Repeat:4,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:64.0
+nb_Repeat:4,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:63.0
+nb_Repeat:4,duration:24,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:60.0 beta
+nb_Repeat:4,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:59.0
+nb_Repeat:4,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:58.0
+nb_Repeat:4,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:57.0
+nb_Repeat:5,duration:24,os:Windows,os_version:10,browser:Chrome,browser_version:66.0
+nb_Repeat:5,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:65.0
+nb_Repeat:5,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:64.0
+nb_Repeat:5,duration:22,os:Windows,os_version:10,browser:Chrome,browser_version:63.0
+nb_Repeat:5,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:62.0
+nb_Repeat:5,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:61.0
+nb_Repeat:5,duration:25,os:Windows,os_version:10,browser:Chrome,browser_version:60.0
+nb_Repeat:5,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:60.0 beta
+nb_Repeat:5,duration:22,os:Windows,os_version:10,browser:Firefox,browser_version:59.0
+nb_Repeat:5,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:58.0
+nb_Repeat:5,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:57.0
+nb_Repeat:5,duration:23,os:Windows,os_version:10,browser:IE,browser_version:11.0
+nb_Repeat:5,duration:23,os:Windows,os_version:8.1,browser:Chrome,browser_version:66.0
+nb_Repeat:5,duration:22,os:Windows,os_version:8.1,browser:Chrome,browser_version:65.0
+nb_Repeat:5,duration:23,os:Windows,os_version:8.1,browser:Chrome,browser_version:64.0
+nb_Repeat:5,duration:23,os:Windows,os_version:8.1,browser:Chrome,browser_version:63.0
+nb_Repeat:5,duration:28,os:Windows,os_version:8.1,browser:Chrome,browser_version:62.0
+nb_Repeat:5,duration:24,os:Windows,os_version:8.1,browser:Chrome,browser_version:61.0
+nb_Repeat:5,duration:23,os:Windows,os_version:8.1,browser:Chrome,browser_version:60.0
+nb_Repeat:5,duration:23,os:Windows,os_version:8.1,browser:Firefox,browser_version:60.0 beta
+nb_Repeat:5,duration:23,os:Windows,os_version:8.1,browser:Firefox,browser_version:59.0
+nb_Repeat:5,duration:22,os:Windows,os_version:8.1,browser:Firefox,browser_version:58.0
+nb_Repeat:5,duration:22,os:Windows,os_version:8.1,browser:Firefox,browser_version:57.0
+nb_Repeat:5,duration:23,os:Windows,os_version:8.1,browser:IE,browser_version:11.0
+nb_Repeat:5,duration:23,os:Windows,os_version:7,browser:Chrome,browser_version:66.0
+nb_Repeat:5,duration:23,os:Windows,os_version:7,browser:Chrome,browser_version:65.0
+nb_Repeat:5,duration:23,os:Windows,os_version:7,browser:Chrome,browser_version:64.0
+nb_Repeat:5,duration:24,os:Windows,os_version:7,browser:Chrome,browser_version:63.0
+nb_Repeat:5,duration:24,os:Windows,os_version:7,browser:Chrome,browser_version:62.0
+nb_Repeat:5,duration:25,os:Windows,os_version:7,browser:Chrome,browser_version:61.0
+nb_Repeat:5,duration:23,os:Windows,os_version:7,browser:Chrome,browser_version:60.0
+nb_Repeat:5,duration:22,os:Windows,os_version:7,browser:Firefox,browser_version:60.0 beta
+nb_Repeat:5,duration:23,os:Windows,os_version:7,browser:Firefox,browser_version:59.0
+nb_Repeat:5,duration:23,os:Windows,os_version:7,browser:Firefox,browser_version:58.0
+nb_Repeat:5,duration:23,os:Windows,os_version:7,browser:Firefox,browser_version:57.0
+nb_Repeat:5,duration:24,os:Windows,os_version:7,browser:IE,browser_version:11.0
+nb_Repeat:5,duration:23,os:Windows,os_version:XP,browser:Chrome,browser_version:49.0
+nb_Repeat:5,duration:22,os:Windows,os_version:XP,browser:Chrome,browser_version:48.0
+nb_Repeat:5,duration:22,os:Windows,os_version:XP,browser:Firefox,browser_version:47.0
+nb_Repeat:5,duration:22,os:Windows,os_version:XP,browser:Firefox,browser_version:47.0
+nb_Repeat:5,duration:5,os:Windows,os_version:XP,browser:IE,browser_version:7.0
+nb_Repeat:5,duration:22,os:OS X,os_version:High Sierra,browser:Safari,browser_version:11.0
+nb_Repeat:5,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:66.0
+nb_Repeat:5,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:65.0
+nb_Repeat:5,duration:22,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:64.0
+nb_Repeat:5,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:63.0
+nb_Repeat:5,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:60.0 beta
+nb_Repeat:5,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:59.0
+nb_Repeat:5,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:58.0
+nb_Repeat:5,duration:25,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:57.0
+nb_Repeat:5,duration:24,os:OS X,os_version:Sierra,browser:Safari,browser_version:10.0
+nb_Repeat:5,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:66.0
+nb_Repeat:5,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:65.0
+nb_Repeat:5,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:64.0
+nb_Repeat:5,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:63.0
+nb_Repeat:5,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:60.0 beta
+nb_Repeat:5,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:59.0
+nb_Repeat:5,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:58.0
+nb_Repeat:5,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:57.0
+nb_Repeat:5,duration:23,os:OS X,os_version:El Capitan,browser:Safari,browser_version:9.1
+nb_Repeat:5,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:66.0
+nb_Repeat:5,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:65.0
+nb_Repeat:5,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:64.0
+nb_Repeat:5,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:63.0
+nb_Repeat:5,duration:25,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:60.0 beta
+nb_Repeat:5,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:59.0
+nb_Repeat:5,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:58.0
+nb_Repeat:5,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:57.0
+nb_Repeat:5,duration:24,os:OS X,os_version:Yosemite,browser:Safari,browser_version:8.0
+nb_Repeat:5,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:66.0
+nb_Repeat:5,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:65.0
+nb_Repeat:5,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:64.0
+nb_Repeat:5,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:63.0
+nb_Repeat:5,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:60.0 beta
+nb_Repeat:5,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:59.0
+nb_Repeat:5,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:58.0
+nb_Repeat:5,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:57.0
+nb_Repeat:6,duration:22,os:Windows,os_version:10,browser:Chrome,browser_version:66.0
+nb_Repeat:6,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:65.0
+nb_Repeat:6,duration:22,os:Windows,os_version:10,browser:Chrome,browser_version:64.0
+nb_Repeat:6,duration:24,os:Windows,os_version:10,browser:Chrome,browser_version:63.0
+nb_Repeat:6,duration:22,os:Windows,os_version:10,browser:Chrome,browser_version:62.0
+nb_Repeat:6,duration:25,os:Windows,os_version:10,browser:Chrome,browser_version:61.0
+nb_Repeat:6,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:60.0
+nb_Repeat:6,duration:22,os:Windows,os_version:10,browser:Firefox,browser_version:60.0 beta
+nb_Repeat:6,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:59.0
+nb_Repeat:6,duration:25,os:Windows,os_version:10,browser:Firefox,browser_version:58.0
+nb_Repeat:6,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:57.0
+nb_Repeat:6,duration:23,os:Windows,os_version:10,browser:IE,browser_version:11.0
+nb_Repeat:6,duration:23,os:Windows,os_version:8.1,browser:Chrome,browser_version:66.0
+nb_Repeat:6,duration:23,os:Windows,os_version:8.1,browser:Chrome,browser_version:65.0
+nb_Repeat:6,duration:24,os:Windows,os_version:8.1,browser:Chrome,browser_version:64.0
+nb_Repeat:6,duration:23,os:Windows,os_version:8.1,browser:Chrome,browser_version:63.0
+nb_Repeat:6,duration:23,os:Windows,os_version:8.1,browser:Chrome,browser_version:62.0
+nb_Repeat:6,duration:23,os:Windows,os_version:8.1,browser:Chrome,browser_version:61.0
+nb_Repeat:6,duration:23,os:Windows,os_version:8.1,browser:Chrome,browser_version:60.0
+nb_Repeat:6,duration:22,os:Windows,os_version:8.1,browser:Firefox,browser_version:60.0 beta
+nb_Repeat:6,duration:23,os:Windows,os_version:8.1,browser:Firefox,browser_version:59.0
+nb_Repeat:6,duration:23,os:Windows,os_version:8.1,browser:Firefox,browser_version:58.0
+nb_Repeat:6,duration:24,os:Windows,os_version:8.1,browser:Firefox,browser_version:57.0
+nb_Repeat:6,duration:22,os:Windows,os_version:8.1,browser:IE,browser_version:11.0
+nb_Repeat:6,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:66.0
+nb_Repeat:6,duration:25,os:Windows,os_version:7,browser:Chrome,browser_version:65.0
+nb_Repeat:6,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:64.0
+nb_Repeat:6,duration:25,os:Windows,os_version:7,browser:Chrome,browser_version:63.0
+nb_Repeat:6,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:62.0
+nb_Repeat:6,duration:24,os:Windows,os_version:7,browser:Chrome,browser_version:61.0
+nb_Repeat:6,duration:23,os:Windows,os_version:7,browser:Chrome,browser_version:60.0
+nb_Repeat:6,duration:22,os:Windows,os_version:7,browser:Firefox,browser_version:60.0 beta
+nb_Repeat:6,duration:23,os:Windows,os_version:7,browser:Firefox,browser_version:59.0
+nb_Repeat:6,duration:23,os:Windows,os_version:7,browser:Firefox,browser_version:58.0
+nb_Repeat:6,duration:22,os:Windows,os_version:7,browser:Firefox,browser_version:57.0
+nb_Repeat:6,duration:33,os:Windows,os_version:7,browser:IE,browser_version:11.0
+nb_Repeat:6,duration:27,os:Windows,os_version:7,browser:IE,browser_version:10.0
+nb_Repeat:6,duration:22,os:Windows,os_version:XP,browser:Chrome,browser_version:49.0
+nb_Repeat:6,duration:23,os:Windows,os_version:XP,browser:Chrome,browser_version:48.0
+nb_Repeat:6,duration:22,os:Windows,os_version:XP,browser:Firefox,browser_version:47.0
+nb_Repeat:6,duration:22,os:Windows,os_version:XP,browser:Firefox,browser_version:47.0
+nb_Repeat:6,duration:4,os:Windows,os_version:XP,browser:IE,browser_version:7.0
+nb_Repeat:6,duration:23,os:OS X,os_version:High Sierra,browser:Safari,browser_version:11.0
+nb_Repeat:6,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:66.0
+nb_Repeat:6,duration:22,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:65.0
+nb_Repeat:6,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:64.0
+nb_Repeat:6,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:63.0
+nb_Repeat:6,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:60.0 beta
+nb_Repeat:6,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:59.0
+nb_Repeat:6,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:58.0
+nb_Repeat:6,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:57.0
+nb_Repeat:6,duration:22,os:OS X,os_version:Sierra,browser:Safari,browser_version:10.0
+nb_Repeat:6,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:66.0
+nb_Repeat:6,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:65.0
+nb_Repeat:6,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:64.0
+nb_Repeat:6,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:63.0
+nb_Repeat:6,duration:24,os:OS X,os_version:Sierra,browser:Chrome,browser_version:60.0 beta
+nb_Repeat:6,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:59.0
+nb_Repeat:6,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:58.0
+nb_Repeat:6,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:57.0
+nb_Repeat:6,duration:22,os:OS X,os_version:El Capitan,browser:Safari,browser_version:9.1
+nb_Repeat:6,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:66.0
+nb_Repeat:6,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:65.0
+nb_Repeat:6,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:64.0
+nb_Repeat:6,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:63.0
+nb_Repeat:6,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:60.0 beta
+nb_Repeat:6,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:59.0
+nb_Repeat:6,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:58.0
+nb_Repeat:6,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:57.0
+nb_Repeat:6,duration:22,os:OS X,os_version:Yosemite,browser:Safari,browser_version:8.0
+nb_Repeat:6,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:66.0
+nb_Repeat:6,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:65.0
+nb_Repeat:6,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:64.0
+nb_Repeat:6,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:63.0
+nb_Repeat:6,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:60.0 beta
+nb_Repeat:6,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:59.0
+nb_Repeat:6,duration:25,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:58.0
+nb_Repeat:6,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:57.0
+nb_Repeat:7,duration:22,os:Windows,os_version:10,browser:Chrome,browser_version:66.0
+nb_Repeat:7,duration:24,os:Windows,os_version:10,browser:Chrome,browser_version:65.0
+nb_Repeat:7,duration:22,os:Windows,os_version:10,browser:Chrome,browser_version:64.0
+nb_Repeat:7,duration:24,os:Windows,os_version:10,browser:Chrome,browser_version:63.0
+nb_Repeat:7,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:62.0
+nb_Repeat:7,duration:25,os:Windows,os_version:10,browser:Chrome,browser_version:61.0
+nb_Repeat:7,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:60.0
+nb_Repeat:7,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:60.0 beta
+nb_Repeat:7,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:59.0
+nb_Repeat:7,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:58.0
+nb_Repeat:7,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:57.0
+nb_Repeat:7,duration:25,os:Windows,os_version:10,browser:IE,browser_version:11.0
+nb_Repeat:7,duration:25,os:Windows,os_version:8.1,browser:Chrome,browser_version:66.0
+nb_Repeat:7,duration:22,os:Windows,os_version:8.1,browser:Chrome,browser_version:65.0
+nb_Repeat:7,duration:24,os:Windows,os_version:8.1,browser:Chrome,browser_version:64.0
+nb_Repeat:7,duration:22,os:Windows,os_version:8.1,browser:Chrome,browser_version:63.0
+nb_Repeat:7,duration:23,os:Windows,os_version:8.1,browser:Chrome,browser_version:62.0
+nb_Repeat:7,duration:26,os:Windows,os_version:8.1,browser:Chrome,browser_version:61.0
+nb_Repeat:7,duration:24,os:Windows,os_version:8.1,browser:Chrome,browser_version:60.0
+nb_Repeat:7,duration:23,os:Windows,os_version:8.1,browser:Firefox,browser_version:60.0 beta
+nb_Repeat:7,duration:23,os:Windows,os_version:8.1,browser:Firefox,browser_version:59.0
+nb_Repeat:7,duration:22,os:Windows,os_version:8.1,browser:Firefox,browser_version:58.0
+nb_Repeat:7,duration:22,os:Windows,os_version:8.1,browser:Firefox,browser_version:57.0
+nb_Repeat:7,duration:22,os:Windows,os_version:8.1,browser:IE,browser_version:11.0
+nb_Repeat:7,duration:24,os:Windows,os_version:7,browser:Chrome,browser_version:66.0
+nb_Repeat:7,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:65.0
+nb_Repeat:7,duration:25,os:Windows,os_version:7,browser:Chrome,browser_version:64.0
+nb_Repeat:7,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:63.0
+nb_Repeat:7,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:62.0
+nb_Repeat:7,duration:27,os:Windows,os_version:7,browser:Chrome,browser_version:61.0
+nb_Repeat:7,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:60.0
+nb_Repeat:7,duration:22,os:Windows,os_version:7,browser:Firefox,browser_version:60.0 beta
+nb_Repeat:7,duration:22,os:Windows,os_version:7,browser:Firefox,browser_version:59.0
+nb_Repeat:7,duration:23,os:Windows,os_version:7,browser:Firefox,browser_version:58.0
+nb_Repeat:7,duration:24,os:Windows,os_version:7,browser:Firefox,browser_version:57.0
+nb_Repeat:7,duration:33,os:Windows,os_version:7,browser:IE,browser_version:11.0
+nb_Repeat:7,duration:58,os:Windows,os_version:7,browser:IE,browser_version:10.0
+nb_Repeat:7,duration:23,os:Windows,os_version:XP,browser:Chrome,browser_version:49.0
+nb_Repeat:7,duration:29,os:Windows,os_version:XP,browser:Chrome,browser_version:48.0
+nb_Repeat:7,duration:22,os:Windows,os_version:XP,browser:Firefox,browser_version:47.0
+nb_Repeat:7,duration:22,os:Windows,os_version:XP,browser:Firefox,browser_version:47.0
+nb_Repeat:7,duration:4,os:Windows,os_version:XP,browser:IE,browser_version:7.0
+nb_Repeat:7,duration:11,os:Windows,os_version:XP,browser:IE,browser_version:6.0
+nb_Repeat:7,duration:24,os:OS X,os_version:High Sierra,browser:Safari,browser_version:11.0
+nb_Repeat:7,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:66.0
+nb_Repeat:7,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:65.0
+nb_Repeat:7,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:64.0
+nb_Repeat:7,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:63.0
+nb_Repeat:7,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:60.0 beta
+nb_Repeat:7,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:59.0
+nb_Repeat:7,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:58.0
+nb_Repeat:7,duration:25,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:57.0
+nb_Repeat:7,duration:24,os:OS X,os_version:Sierra,browser:Safari,browser_version:10.0
+nb_Repeat:7,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:66.0
+nb_Repeat:7,duration:24,os:OS X,os_version:Sierra,browser:Chrome,browser_version:65.0
+nb_Repeat:7,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:64.0
+nb_Repeat:7,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:63.0
+nb_Repeat:7,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:60.0 beta
+nb_Repeat:7,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:59.0
+nb_Repeat:7,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:58.0
+nb_Repeat:7,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:57.0
+nb_Repeat:7,duration:22,os:OS X,os_version:El Capitan,browser:Safari,browser_version:9.1
+nb_Repeat:7,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:66.0
+nb_Repeat:7,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:65.0
+nb_Repeat:7,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:64.0
+nb_Repeat:7,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:63.0
+nb_Repeat:7,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:60.0 beta
+nb_Repeat:7,duration:24,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:59.0
+nb_Repeat:7,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:58.0
+nb_Repeat:7,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:57.0
+nb_Repeat:7,duration:22,os:OS X,os_version:Yosemite,browser:Safari,browser_version:8.0
+nb_Repeat:7,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:66.0
+nb_Repeat:7,duration:24,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:65.0
+nb_Repeat:7,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:64.0
+nb_Repeat:7,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:63.0
+nb_Repeat:7,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:60.0 beta
+nb_Repeat:7,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:59.0
+nb_Repeat:7,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:58.0
+nb_Repeat:7,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:57.0
+nb_Repeat:8,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:66.0
+nb_Repeat:8,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:65.0
+nb_Repeat:8,duration:24,os:Windows,os_version:10,browser:Chrome,browser_version:64.0
+nb_Repeat:8,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:63.0
+nb_Repeat:8,duration:24,os:Windows,os_version:10,browser:Chrome,browser_version:62.0
+nb_Repeat:8,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:61.0
+nb_Repeat:8,duration:22,os:Windows,os_version:10,browser:Chrome,browser_version:60.0
+nb_Repeat:8,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:60.0 beta
+nb_Repeat:8,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:59.0
+nb_Repeat:8,duration:22,os:Windows,os_version:10,browser:Firefox,browser_version:58.0
+nb_Repeat:8,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:57.0
+nb_Repeat:8,duration:23,os:Windows,os_version:10,browser:IE,browser_version:11.0
+nb_Repeat:8,duration:23,os:Windows,os_version:8.1,browser:Chrome,browser_version:66.0
+nb_Repeat:8,duration:24,os:Windows,os_version:8.1,browser:Chrome,browser_version:65.0
+nb_Repeat:8,duration:23,os:Windows,os_version:8.1,browser:Chrome,browser_version:64.0
+nb_Repeat:8,duration:22,os:Windows,os_version:8.1,browser:Chrome,browser_version:63.0
+nb_Repeat:8,duration:30,os:Windows,os_version:8.1,browser:Chrome,browser_version:62.0
+nb_Repeat:8,duration:23,os:Windows,os_version:8.1,browser:Chrome,browser_version:61.0
+nb_Repeat:8,duration:24,os:Windows,os_version:8.1,browser:Chrome,browser_version:60.0
+nb_Repeat:8,duration:23,os:Windows,os_version:8.1,browser:Firefox,browser_version:60.0 beta
+nb_Repeat:8,duration:23,os:Windows,os_version:8.1,browser:Firefox,browser_version:59.0
+nb_Repeat:8,duration:22,os:Windows,os_version:8.1,browser:Firefox,browser_version:58.0
+nb_Repeat:8,duration:22,os:Windows,os_version:8.1,browser:Firefox,browser_version:57.0
+nb_Repeat:8,duration:22,os:Windows,os_version:8.1,browser:IE,browser_version:11.0
+nb_Repeat:8,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:66.0
+nb_Repeat:8,duration:26,os:Windows,os_version:7,browser:Chrome,browser_version:65.0
+nb_Repeat:8,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:64.0
+nb_Repeat:8,duration:25,os:Windows,os_version:7,browser:Chrome,browser_version:63.0
+nb_Repeat:8,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:62.0
+nb_Repeat:8,duration:24,os:Windows,os_version:7,browser:Chrome,browser_version:61.0
+nb_Repeat:8,duration:24,os:Windows,os_version:7,browser:Chrome,browser_version:60.0
+nb_Repeat:8,duration:23,os:Windows,os_version:7,browser:Firefox,browser_version:60.0 beta
+nb_Repeat:8,duration:22,os:Windows,os_version:7,browser:Firefox,browser_version:59.0
+nb_Repeat:8,duration:23,os:Windows,os_version:7,browser:Firefox,browser_version:58.0
+nb_Repeat:8,duration:24,os:Windows,os_version:7,browser:Firefox,browser_version:57.0
+nb_Repeat:8,duration:34,os:Windows,os_version:7,browser:IE,browser_version:11.0
+nb_Repeat:8,duration:34,os:Windows,os_version:7,browser:IE,browser_version:10.0
+nb_Repeat:8,duration:22,os:Windows,os_version:XP,browser:Chrome,browser_version:49.0
+nb_Repeat:8,duration:27,os:Windows,os_version:XP,browser:Chrome,browser_version:48.0
+nb_Repeat:8,duration:22,os:Windows,os_version:XP,browser:Firefox,browser_version:47.0
+nb_Repeat:8,duration:22,os:Windows,os_version:XP,browser:Firefox,browser_version:47.0
+nb_Repeat:8,duration:22,os:Windows,os_version:XP,browser:IE,browser_version:7.0
+nb_Repeat:8,duration:10,os:Windows,os_version:XP,browser:IE,browser_version:6.0
+nb_Repeat:8,duration:23,os:OS X,os_version:High Sierra,browser:Safari,browser_version:11.0
+nb_Repeat:8,duration:22,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:66.0
+nb_Repeat:8,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:65.0
+nb_Repeat:8,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:64.0
+nb_Repeat:8,duration:22,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:63.0
+nb_Repeat:8,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:60.0 beta
+nb_Repeat:8,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:59.0
+nb_Repeat:8,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:58.0
+nb_Repeat:8,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:57.0
+nb_Repeat:8,duration:22,os:OS X,os_version:Sierra,browser:Safari,browser_version:10.0
+nb_Repeat:8,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:66.0
+nb_Repeat:8,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:65.0
+nb_Repeat:8,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:64.0
+nb_Repeat:8,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:63.0
+nb_Repeat:8,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:60.0 beta
+nb_Repeat:8,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:59.0
+nb_Repeat:8,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:58.0
+nb_Repeat:8,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:57.0
+nb_Repeat:8,duration:23,os:OS X,os_version:El Capitan,browser:Safari,browser_version:9.1
+nb_Repeat:8,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:66.0
+nb_Repeat:8,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:65.0
+nb_Repeat:8,duration:24,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:64.0
+nb_Repeat:8,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:63.0
+nb_Repeat:8,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:60.0 beta
+nb_Repeat:8,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:59.0
+nb_Repeat:8,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:58.0
+nb_Repeat:8,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:57.0
+nb_Repeat:8,duration:23,os:OS X,os_version:Yosemite,browser:Safari,browser_version:8.0
+nb_Repeat:8,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:66.0
+nb_Repeat:8,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:65.0
+nb_Repeat:8,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:64.0
+nb_Repeat:8,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:63.0
+nb_Repeat:8,duration:24,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:60.0 beta
+nb_Repeat:8,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:59.0
+nb_Repeat:8,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:58.0
+nb_Repeat:8,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:57.0
+nb_Repeat:9,duration:24,os:Windows,os_version:10,browser:Chrome,browser_version:66.0
+nb_Repeat:9,duration:24,os:Windows,os_version:10,browser:Chrome,browser_version:65.0
+nb_Repeat:9,duration:22,os:Windows,os_version:10,browser:Chrome,browser_version:64.0
+nb_Repeat:9,duration:25,os:Windows,os_version:10,browser:Chrome,browser_version:63.0
+nb_Repeat:9,duration:24,os:Windows,os_version:10,browser:Chrome,browser_version:62.0
+nb_Repeat:9,duration:26,os:Windows,os_version:10,browser:Chrome,browser_version:61.0
+nb_Repeat:9,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:60.0
+nb_Repeat:9,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:60.0 beta
+nb_Repeat:9,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:59.0
+nb_Repeat:9,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:58.0
+nb_Repeat:9,duration:22,os:Windows,os_version:10,browser:Firefox,browser_version:57.0
+nb_Repeat:9,duration:23,os:Windows,os_version:10,browser:IE,browser_version:11.0
+nb_Repeat:9,duration:24,os:Windows,os_version:8.1,browser:Chrome,browser_version:66.0
+nb_Repeat:9,duration:22,os:Windows,os_version:8.1,browser:Chrome,browser_version:65.0
+nb_Repeat:9,duration:22,os:Windows,os_version:8.1,browser:Chrome,browser_version:64.0
+nb_Repeat:9,duration:22,os:Windows,os_version:8.1,browser:Chrome,browser_version:63.0
+nb_Repeat:9,duration:22,os:Windows,os_version:8.1,browser:Chrome,browser_version:62.0
+nb_Repeat:9,duration:25,os:Windows,os_version:8.1,browser:Chrome,browser_version:61.0
+nb_Repeat:9,duration:23,os:Windows,os_version:8.1,browser:Chrome,browser_version:60.0
+nb_Repeat:9,duration:23,os:Windows,os_version:8.1,browser:Firefox,browser_version:60.0 beta
+nb_Repeat:9,duration:23,os:Windows,os_version:8.1,browser:Firefox,browser_version:59.0
+nb_Repeat:9,duration:22,os:Windows,os_version:8.1,browser:Firefox,browser_version:58.0
+nb_Repeat:9,duration:23,os:Windows,os_version:8.1,browser:Firefox,browser_version:57.0
+nb_Repeat:9,duration:23,os:Windows,os_version:8.1,browser:IE,browser_version:11.0
+nb_Repeat:9,duration:24,os:Windows,os_version:7,browser:Chrome,browser_version:66.0
+nb_Repeat:9,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:65.0
+nb_Repeat:9,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:64.0
+nb_Repeat:9,duration:25,os:Windows,os_version:7,browser:Chrome,browser_version:63.0
+nb_Repeat:9,duration:24,os:Windows,os_version:7,browser:Chrome,browser_version:62.0
+nb_Repeat:9,duration:23,os:Windows,os_version:7,browser:Chrome,browser_version:61.0
+nb_Repeat:9,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:60.0
+nb_Repeat:9,duration:23,os:Windows,os_version:7,browser:Firefox,browser_version:60.0 beta
+nb_Repeat:9,duration:22,os:Windows,os_version:7,browser:Firefox,browser_version:59.0
+nb_Repeat:9,duration:22,os:Windows,os_version:7,browser:Firefox,browser_version:58.0
+nb_Repeat:9,duration:23,os:Windows,os_version:7,browser:Firefox,browser_version:57.0
+nb_Repeat:9,duration:23,os:Windows,os_version:7,browser:IE,browser_version:11.0
+nb_Repeat:9,duration:36,os:Windows,os_version:7,browser:IE,browser_version:10.0
+nb_Repeat:9,duration:22,os:Windows,os_version:XP,browser:Chrome,browser_version:49.0
+nb_Repeat:9,duration:23,os:Windows,os_version:XP,browser:Chrome,browser_version:48.0
+nb_Repeat:9,duration:22,os:Windows,os_version:XP,browser:Firefox,browser_version:47.0
+nb_Repeat:9,duration:22,os:Windows,os_version:XP,browser:Firefox,browser_version:47.0
+nb_Repeat:9,duration:5,os:Windows,os_version:XP,browser:IE,browser_version:7.0
+nb_Repeat:9,duration:10,os:Windows,os_version:XP,browser:IE,browser_version:6.0
+nb_Repeat:9,duration:23,os:OS X,os_version:High Sierra,browser:Safari,browser_version:11.0
+nb_Repeat:9,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:66.0
+nb_Repeat:9,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:65.0
+nb_Repeat:9,duration:22,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:64.0
+nb_Repeat:9,duration:25,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:63.0
+nb_Repeat:9,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:60.0 beta
+nb_Repeat:9,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:59.0
+nb_Repeat:9,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:58.0
+nb_Repeat:9,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:57.0
+nb_Repeat:9,duration:22,os:OS X,os_version:Sierra,browser:Safari,browser_version:10.0
+nb_Repeat:9,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:66.0
+nb_Repeat:9,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:65.0
+nb_Repeat:9,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:64.0
+nb_Repeat:9,duration:24,os:OS X,os_version:Sierra,browser:Chrome,browser_version:63.0
+nb_Repeat:9,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:60.0 beta
+nb_Repeat:9,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:59.0
+nb_Repeat:9,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:58.0
+nb_Repeat:9,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:57.0
+nb_Repeat:9,duration:22,os:OS X,os_version:El Capitan,browser:Safari,browser_version:9.1
+nb_Repeat:9,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:66.0
+nb_Repeat:9,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:65.0
+nb_Repeat:9,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:64.0
+nb_Repeat:9,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:63.0
+nb_Repeat:9,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:60.0 beta
+nb_Repeat:9,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:59.0
+nb_Repeat:9,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:58.0
+nb_Repeat:9,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:57.0
+nb_Repeat:9,duration:22,os:OS X,os_version:Yosemite,browser:Safari,browser_version:8.0
+nb_Repeat:9,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:66.0
+nb_Repeat:9,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:65.0
+nb_Repeat:9,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:64.0
+nb_Repeat:9,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:63.0
+nb_Repeat:9,duration:24,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:60.0 beta
+nb_Repeat:9,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:59.0
+nb_Repeat:9,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:58.0
+nb_Repeat:9,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:57.0
+nb_Repeat:10,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:66.0
+nb_Repeat:10,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:65.0
+nb_Repeat:10,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:64.0
+nb_Repeat:10,duration:22,os:Windows,os_version:10,browser:Chrome,browser_version:63.0
+nb_Repeat:10,duration:25,os:Windows,os_version:10,browser:Chrome,browser_version:62.0
+nb_Repeat:10,duration:24,os:Windows,os_version:10,browser:Chrome,browser_version:61.0
+nb_Repeat:10,duration:23,os:Windows,os_version:10,browser:Chrome,browser_version:60.0
+nb_Repeat:10,duration:24,os:Windows,os_version:10,browser:Firefox,browser_version:60.0 beta
+nb_Repeat:10,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:59.0
+nb_Repeat:10,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:58.0
+nb_Repeat:10,duration:23,os:Windows,os_version:10,browser:Firefox,browser_version:57.0
+nb_Repeat:10,duration:22,os:Windows,os_version:10,browser:IE,browser_version:11.0
+nb_Repeat:10,duration:23,os:Windows,os_version:8.1,browser:Chrome,browser_version:66.0
+nb_Repeat:10,duration:25,os:Windows,os_version:8.1,browser:Chrome,browser_version:65.0
+nb_Repeat:10,duration:24,os:Windows,os_version:8.1,browser:Chrome,browser_version:64.0
+nb_Repeat:10,duration:24,os:Windows,os_version:8.1,browser:Chrome,browser_version:63.0
+nb_Repeat:10,duration:25,os:Windows,os_version:8.1,browser:Chrome,browser_version:62.0
+nb_Repeat:10,duration:26,os:Windows,os_version:8.1,browser:Chrome,browser_version:61.0
+nb_Repeat:10,duration:23,os:Windows,os_version:8.1,browser:Chrome,browser_version:60.0
+nb_Repeat:10,duration:23,os:Windows,os_version:8.1,browser:Firefox,browser_version:60.0 beta
+nb_Repeat:10,duration:23,os:Windows,os_version:8.1,browser:Firefox,browser_version:59.0
+nb_Repeat:10,duration:23,os:Windows,os_version:8.1,browser:Firefox,browser_version:58.0
+nb_Repeat:10,duration:23,os:Windows,os_version:8.1,browser:Firefox,browser_version:57.0
+nb_Repeat:10,duration:24,os:Windows,os_version:8.1,browser:IE,browser_version:11.0
+nb_Repeat:10,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:66.0
+nb_Repeat:10,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:65.0
+nb_Repeat:10,duration:23,os:Windows,os_version:7,browser:Chrome,browser_version:64.0
+nb_Repeat:10,duration:23,os:Windows,os_version:7,browser:Chrome,browser_version:63.0
+nb_Repeat:10,duration:24,os:Windows,os_version:7,browser:Chrome,browser_version:62.0
+nb_Repeat:10,duration:25,os:Windows,os_version:7,browser:Chrome,browser_version:61.0
+nb_Repeat:10,duration:22,os:Windows,os_version:7,browser:Chrome,browser_version:60.0
+nb_Repeat:10,duration:23,os:Windows,os_version:7,browser:Firefox,browser_version:60.0 beta
+nb_Repeat:10,duration:23,os:Windows,os_version:7,browser:Firefox,browser_version:59.0
+nb_Repeat:10,duration:22,os:Windows,os_version:7,browser:Firefox,browser_version:58.0
+nb_Repeat:10,duration:22,os:Windows,os_version:7,browser:Firefox,browser_version:57.0
+nb_Repeat:10,duration:34,os:Windows,os_version:7,browser:IE,browser_version:11.0
+nb_Repeat:10,duration:30,os:Windows,os_version:7,browser:IE,browser_version:10.0
+nb_Repeat:10,duration:25,os:Windows,os_version:XP,browser:Chrome,browser_version:49.0
+nb_Repeat:10,duration:22,os:Windows,os_version:XP,browser:Chrome,browser_version:48.0
+nb_Repeat:10,duration:23,os:Windows,os_version:XP,browser:Firefox,browser_version:47.0
+nb_Repeat:10,duration:23,os:Windows,os_version:XP,browser:Firefox,browser_version:47.0
+nb_Repeat:10,duration:4,os:Windows,os_version:XP,browser:IE,browser_version:7.0
+nb_Repeat:10,duration:11,os:Windows,os_version:XP,browser:IE,browser_version:6.0
+nb_Repeat:10,duration:22,os:OS X,os_version:High Sierra,browser:Safari,browser_version:11.0
+nb_Repeat:10,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:66.0
+nb_Repeat:10,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:65.0
+nb_Repeat:10,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:64.0
+nb_Repeat:10,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:63.0
+nb_Repeat:10,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:60.0 beta
+nb_Repeat:10,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:59.0
+nb_Repeat:10,duration:24,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:58.0
+nb_Repeat:10,duration:23,os:OS X,os_version:High Sierra,browser:Chrome,browser_version:57.0
+nb_Repeat:10,duration:22,os:OS X,os_version:Sierra,browser:Safari,browser_version:10.0
+nb_Repeat:10,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:66.0
+nb_Repeat:10,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:65.0
+nb_Repeat:10,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:64.0
+nb_Repeat:10,duration:22,os:OS X,os_version:Sierra,browser:Chrome,browser_version:63.0
+nb_Repeat:10,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:60.0 beta
+nb_Repeat:10,duration:24,os:OS X,os_version:Sierra,browser:Chrome,browser_version:59.0
+nb_Repeat:10,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:58.0
+nb_Repeat:10,duration:23,os:OS X,os_version:Sierra,browser:Chrome,browser_version:57.0
+nb_Repeat:10,duration:22,os:OS X,os_version:El Capitan,browser:Safari,browser_version:9.1
+nb_Repeat:10,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:66.0
+nb_Repeat:10,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:65.0
+nb_Repeat:10,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:64.0
+nb_Repeat:10,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:63.0
+nb_Repeat:10,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:60.0 beta
+nb_Repeat:10,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:59.0
+nb_Repeat:10,duration:23,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:58.0
+nb_Repeat:10,duration:22,os:OS X,os_version:El Capitan,browser:Chrome,browser_version:57.0
+nb_Repeat:10,duration:23,os:OS X,os_version:Yosemite,browser:Safari,browser_version:8.0
+nb_Repeat:10,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:66.0
+nb_Repeat:10,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:65.0
+nb_Repeat:10,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:64.0
+nb_Repeat:10,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:63.0
+nb_Repeat:10,duration:22,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:60.0 beta
+nb_Repeat:10,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:59.0
+nb_Repeat:10,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:58.0
+nb_Repeat:10,duration:23,os:OS X,os_version:Yosemite,browser:Chrome,browser_version:57.0
